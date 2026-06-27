@@ -1,0 +1,1251 @@
+{
+	"metadata": {
+		"title": "Student's Life | Chet elda o'qish, vizalar va ko'chirish",
+		"description": "Universitetga kirish, viza uchun ariza berish va Rossiya, Xitoy, Turkiya va Evropaga ko'chib o'tishda yordam berish bo'yicha ekspert yordami.",
+		"pages": {
+			"services": {
+				"title": "Xizmatlar | Student's Life",
+				"description": "Talabalarni har tomonlama qo'llab-quvvatlash: universitetga kirish, vizalar, uy-joy, hujjatlarni tarjima qilish. 99% muvaffaqiyat darajasi. Bepul suhbat."
+			},
+			"about": {
+				"title": "Biz haqimizda | Student's Life",
+				"description": "Student's Life — 2019 yildan beri xalqaro kompaniya. 1200+ muvaffaqiyatli xaridlar. Rossiya va Turkmanistondagi vakolatxonalari."
+			},
+			"contact": {
+				"title": "Kontaktlar | Student's Life",
+				"description": "Bepul suhbat uchun biz bilan bog'laning. Ashxobod, Turkmanobod, Mara, Dashog'uz, Bolqon, Toshkent va Kazan'dagi ofislar."
+			},
+			"teams": {
+				"title": "Bizning jamoamiz | Student's Life",
+				"description": "Chet elda ta'lim bo'yicha mutaxassislarimiz bilan tanishing. Maslahatchilar, viza bo'yicha mutaxassislar va ustozlar."
+			},
+			"blog": {
+				"title": "Yangiliklar va blog | Student's Life",
+				"description": "Talabalar uchun foydali maqolalar, qo'llanmalar va yangiliklar. Chet elga kirish, viza va yashash bo'yicha maslahatlar."
+			}
+		}
+	},
+	"hero": {
+		"title": "XALQARO HAMKORLIK",
+		"subtitle": "XALQARO TALABALARNI JALB QILISH SOHASIDA",
+		"description": "Turli mamlakatlardan kelgan abituriyentlarga Rossiya, Xitoy, Turkiya, Kipr, Bolgariya, O'zbekiston, Malayziya, Qozog'iston va Belorusiya universitetlariga kirishga yordam beradigan xalqaro kompaniya",
+		"cta": "Ariza berish",
+		"rightTitle": "KELAJAGINGIZNI YARATING",
+		"rightSubtitle": "Jahon darajasidagi ta'lim bilan global martaba imkoniyatlarini oching.",
+		"partnerText": "Rossiya, Evropa va Osiyo universitetlarining rasmiy hamkori"
+	},
+	"nav": {
+		"home": "Bosh sahifa",
+		"services": "Xizmatlar",
+		"team": "Jamoa",
+		"about": "Biz haqimizda",
+		"contact": "Kontaktlar",
+		"countries": "Mamlakatlar",
+		"company": "Kompaniya",
+		"letsTalk": "Aloqaga chiqish",
+		"megaMenu": {
+			"about": "Biz haqimizda",
+			"aboutDesc": "Bizning vazifamiz va qadriyatlarimiz haqida bilib oling",
+			"team": "Bizning jamoamiz",
+			"teamDesc": "Mutaxassislar bilan tanishing",
+			"careers": "Karyera",
+			"careersDesc": "Bizning jamoamizga qo'shiling",
+			"services": "Xizmatlar",
+			"servicesDesc": "Ta'lim bo'yicha keng qamrovli yordam",
+			"pricing": "Narxlar",
+			"pricingDesc": "Shaffof paketlar va xarajatlar",
+			"blog": "Yangiliklar",
+			"blogDesc": "Talabalar uchun yangiliklar va qo'llanmalar",
+			"partnership": "Hamkorlik",
+			"partnershipDesc": "Universitetlar uchun hamkorlik",
+			"universities": "Universitetlar ro'yxati",
+			"universitiesDesc": "Turkmaniston tan olingan universitetlari",
+			"getConsultation": "Bepul maslahat",
+			"studentName": "Talabalarning Muvaffaqiyati",
+			"studentRole": "Bitiruvchi",
+			"studentQuote": "Talabalarga butun dunyo bo'ylab maqsadlariga erishishda yordam berish."
+		}
+	},
+	"services": {
+		"badge": "Bizning xizmatlarimiz",
+		"title": "Ta'lim bo'yicha keng qamrovli yordam",
+		"visa": "Vizalar",
+		"visaDesc": "99% muvaffaqiyatli keyslar",
+		"university": "Universitetlarga kirish",
+		"universityDesc": "Top universitetlar",
+		"translation": "Hujjatlarni tarjima qilish",
+		"translationDesc": "Tarjimalarni notarial tasdiqlash",
+		"accommodation": "Uy-joy",
+		"accommodationDesc": "Yotoqxonalar va kvartiralar",
+		"ticket": "Aviachiptalar",
+		"ticketDesc": "Talabalar tariflari",
+		"visaFeatures": [
+			"Hujjatlar ro'yxati",
+			"Ariza topshirish",
+			"Konsullikda suhbat",
+			"Biometrik ma'lumotlar uchun ro'yxatdan o'tish",
+			"Pasport olish"
+		],
+		"getStarted": "Boshlash",
+		"chat": {
+			"greeting": "Salom! 👋",
+			"help": "Qanday yordam bera olaman?"
+		}
+	},
+	"countries": {
+		"badge": "Yo'nalishlar",
+		"title": "Mashhur yo'nalishlar",
+		"description": "Bizning ekspert yordamimiz bilan xalqaro ta'lim sayohatingiz uchun eng yaxshi mamlakatlarni kashf eting.",
+		"viewMore": "Sahifaga o'tish",
+		"contactCta": "Bog'lanish",
+		"russia": {
+			"name": "Rossiya",
+			"slogan": "Cheksiz ufqlar va fundamental bilimlar dunyosi",
+			"description": "Ilmiy yutuqlarning boy tarixiga ega bo'lgan Rossiya tibbiyot, muhandislik va san'at bo'yicha jahon darajasidagi ta'limni arzon narxlarda taklif qiladi.",
+			"tags": [
+				"MAVJUD",
+				"STEM",
+				"MADANIYAT"
+			]
+		},
+		"china": {
+			"name": "Xitoy",
+			"slogan": "Qadimgi donolik va kelajak texnologiyalarining sinergiyasi",
+			"description": "Texnologiya va innovatsiyalar sohasida yetakchi nufuzli universitetlarda tahsil olayotganda dunyoning eng tez rivojlanayotgan iqtisodiyoti sur'atlarini his eting.",
+			"tags": [
+				"TEXNO",
+				"KELAJAK",
+				"GLOBAL HUB"
+			]
+		},
+		"turkey": {
+			"name": "Turkiya",
+			"slogan": "Sivilizatsiyalar va jonli talabalik hayotining chorrahasi",
+			"description": "Sharq va G'arb madaniyatlarining noyob uyg'unligi, zamonaviy kampuslar va xalqaro talabalar uchun mehmondo'st muhitdan bahramand bo'ling.",
+			"tags": [
+				"O'RTA DENGIZ",
+				"XILMA-XILLIK",
+				"TARIX"
+			]
+		},
+		"cyprus": {
+			"name": "Kipr",
+			"slogan": "Evropa ta'limi va qulayligining quyoshli oroli",
+			"description": "Xavfsiz, quyoshli va qat'iy Evropa standartlariga javob beradigan Kipr - sifatli va dam olishni istagan talabalar uchun ideal joy.",
+			"tags": [
+				"YEVROPA",
+				"OROL",
+				"XAVFSIZ"
+			]
+		},
+		"belarus": {
+			"name": "Belarus",
+			"slogan": "Mehmondo'stlik, xavfsizlik va akademik urf-odatlar",
+			"description": "O'zining yuqori akademik standartlari va xavfsiz muhiti bilan mashhur bo'lgan Belarus klassik Evropa ta'limida pul uchun juda yaxshi qiymat beradi.",
+			"tags": [
+				"URF-ODATLAR",
+				"QIYMAT",
+				"XAVFSIZLIK"
+			]
+		},
+		"bulgaria": {
+			"name": "Bolgariya",
+			"slogan": "Kirish mumkin bo'lgan Yevropa biznes ta'limi",
+			"description": "Go'zal Qora dengiz qirg'oq mintaqasida yuqori sifatli iqtisodiyot va boshqaruv dasturlari bilan Evropa Ittifoqiga kirish eshigi.",
+			"tags": [
+				"EI CHEGARASI",
+				"BIZNES",
+				"IQTISODIYOT"
+			]
+		}
+	},
+	"whyUs": {
+		"titlePart1": "NEGA",
+		"titlePart2": "BIZ BILAN",
+		"titlePart3": "FOYDALI?",
+		"decoration": "HAMKORLIK",
+		"badge": "7 Sabab",
+		"leftFeatures": [
+			"Har yili xalqaro talabalarning doimiy oqimi",
+			"Oldindan tanlangan va o'qitilgan nomzodlar"
+		],
+		"rightFeatures": [
+			"Arizadan moslashishgacha toliq qo'llab-quvvatlash",
+			"Huquqiy shaffoflik va ishning rasmiy formati",
+			"Universitetning ilmiy reytinggini oshiradigan yuqori malakali talabalar",
+			"Qo'shma ta'lim va PR loyihalari",
+			"Kvotalarni bashorat qilish mumkin bo'lgan o'sish va uzoq muddatli hamkorlik"
+		],
+		"partnersContact": "Hamkorlar uchun:",
+		"partnersEmail": "partners@stud-life.com",
+		"partnersPhone": "+99371250041",
+		"universitiesContact": "Universitetlar uchun:",
+		"universitiesEmail": "uni@stud-life.com",
+		"universitiesPhone": "+99371199151"
+	},
+	"team": {
+		"badge": "Bizning Jamoamiz",
+		"title": "Bizning orqamizdagi mutaxassislar",
+		"description": "Innovatsiyalarga asoslangan va ta'lim kelajagini shakllantiradigan turli xil mutaxassislarimiz bilan tanishing.",
+		"testimonials_title": "Talabalarning fikrlari",
+		"videoTestimonialCategory": "Videofikr",
+		"cta_card_title": "Bizning butun jamoamiz",
+		"cta_card_desc": "Bizning o'zini ishga bag'ishlagan ixtisoslashgan mutaxassislarimizning to'liq ro'yxati bilan tanishing.",
+		"cta_card_button": "Butun jamoani ko'ring"
+	},
+	"teamMember": {
+		"backToTeam": "Jamoaga qaytish",
+		"contactInfo": "Aloqa ma'lumotlari",
+		"responsibilities": "Mutaxassislik va yordam",
+		"since": "Biz bilan",
+		"breadcrumbHome": "Bosh sahifa",
+		"breadcrumbTeam": "Jamoa"
+	},
+	"statistics": {
+		"badge": "Statistika",
+		"description": "Bizning sodiq jamoadagi ta'lim bo'yicha suhbatchilar, viza bo'yicha ekspertlar va ustozlar sizning muvaffaqiyatingizni ta'minlash uchun tinimsiz ishlaydi.",
+		"results": {
+			"totalStudents": "Butun zamon talabalari",
+			"lastYearStudents": "Faqat oxirgi o'quv yilidagi talabalar",
+			"averageGrowth": "O'rtacha yillik o'sish",
+			"firstAttempt": "Birinchi urinishda kirish",
+			"scholarships": "Stipendiyalar olishadi"
+		},
+		"geographyTitle": "TALABALAR GEOGRAFIYASI",
+		"geography": {
+			"turkmenistan": "Turkmaniston",
+			"turkey": "Turkiya",
+			"china": "Xitoy",
+			"uzbekistan": "O'zbekiston",
+			"tajikistan": "Tojikiston"
+		}
+	},
+	"form": {
+		"title": "Tez ariza",
+		"selectService": "Kerak bo'lgan xizmatni tanlang",
+		"backButton": "Xizmat tanloviga qaytish",
+		"steps": "Bosqichlar",
+		"navigation": {
+			"back": "Orqaga",
+			"next": "Oldinga",
+			"submit": "Arizani yuborish"
+		},
+		"stepTitles": {
+			"serviceSelection": "Sizga qanday xizmat kerak?",
+			"personalInfo": "O'zingiz haqingizda gapirib bering",
+			"serviceDetails": "Xizmat tafsilotlari",
+			"additionalInfo": "Qo'shimcha ma'lumot"
+		},
+		"stepDescriptions": {
+			"serviceSelection": "Sizga kerak bo'lgan xizmatni tanlang",
+			"personalInfo": "Biz sizning ma'lumotlaringizni tekshirishimiz kerak, buning uchun bizga shaxsiy ma'lumotlar kerak",
+			"serviceDetails": "Iltimos, so'rovingiz tafsilotlarini bering.",
+			"additionalInfo": "Har qanday qo'shimcha ma'lumot"
+		},
+		"services": {
+			"university": {
+				"title": "Abituriyentlar uchun",
+				"desc": "Universitetga kirish"
+			},
+			"transfer": {
+				"title": "Universitetlar o'rtasida o'tkazish",
+				"desc": "Boshqa universitetga ko'chirish bo'yicha"
+			},
+			"school": {
+				"title": "Xitoydagi maktab o'quvchilari uchun",
+				"desc": "Xitoy maktablarida o'qish"
+			},
+			"umrah": {
+				"title": "Makkaga umra",
+				"desc": "14 kunlik ziyorat"
+			},
+			"workVisa": {
+				"title": "Ish vizasi",
+				"desc": "Ish vizasini olishda yordam"
+			},
+			"ticket": {
+				"title": "Chipta sotib olish",
+				"desc": "Aviachiptalarni bron qilish"
+			},
+			"rvp": {
+				"title": "RVP / RVPO / VNJ",
+				"desc": "Rossiyada yashash uchun ruxsatnoma olishda yordam"
+			}
+		},
+		"fields": {
+			"fullName": "To'liq ism",
+			"studentName": "Talabaning to'liq ismi",
+			"parentName": "Ota-onaning to'liq ismi",
+			"phone": "Telefon raqami",
+			"email": "Elektron pochta",
+			"dateOfBirth": "Tug'ilgan sana",
+			"relationship": "Qarindoshlik darajasi",
+			"educationLevel": "Ta'lim darajasi",
+			"targetCountry": "Belgilangan mamlakat",
+			"fieldOfStudy": "O'qish yo'nalishi",
+			"citizenship": "Fuqarolik",
+			"region": "Viloyat",
+			"city": "Shahar",
+			"currentEducationLevel": "Hozirgi ta'lim darajasi",
+			"currentUniversity": "Hozirgi universitet",
+			"currentCountry": "Hozirgi mamlakat",
+			"currentField": "Hozirgi yo'nalish",
+			"paymentType": "O'qish shakli",
+			"transferType": "Ko'chirish turi",
+			"targetUniversity": "Maqsadli universitet",
+			"targetField": "Maqsadli yo'nalish",
+			"hasPassport": "Chet el pasportingiz bormi?",
+			"passportExpiry": "Pasportning amal qilish muddati",
+			"travelMonth": "Sayohat oyi",
+			"workPreferences": "Ish afzalliklari",
+			"previousTravel": "Siz ilgari chet elda bo'lganmisiz?",
+			"fromCity": "Qayerdan",
+			"toCity": "Qayerga",
+			"travelDate": "Sayohat sanasi",
+			"needsBaggage": "Bagaj",
+			"rvpType": "Qaysi uchun ariza berasiz",
+			"legalBasis": "Ariza berish asosi",
+			"applicationCity": "Hujjat topshiriladigan shahar",
+			"hasViolations": "Ma'muriy huquqbuzarlik?",
+			"rvpService": "Qaysi xizmatdan foydalanmoqchisiz"
+		},
+		"placeholders": {
+			"fullName": "To'liq isimni kiriting",
+			"phone": "+993 XX XXX XXX",
+			"email": "primer@email.com",
+			"fieldOfStudy": "masalan, Kompyuter fanlari",
+			"city": "Shaharingizni kiriting",
+			"fromCity": "masalan, Ashxobod",
+			"toCity": "masalan, Moskva",
+			"workPreferences": "Qo'lingizdan nma keladi, qayerda ishlamoqchisiz?",
+			"previousTravel": "Siz ilgari chet elda bo'lganmisiz? Siz deportatsiya qilingansizmi?",
+			"legalBasis": "Asosni ko'rsating",
+			"applicationCity": "Masalan: Qozon"
+		},
+		"options": {
+			"select": "Tanlang",
+			"selectLevel": "Bosqichni tanlang",
+			"selectRelationship": "Qarindoshlikni tanlang",
+			"selectCountry": "Shaharni tanlang",
+			"selectRegion": "Viloyatni tanlang",
+			"selectMonth": "Oyni tanlang",
+			"self": "O'zingiz",
+			"father": "Ota",
+			"mother": "Ona",
+			"friend": "Tanish",
+			"yes": "Ha",
+			"no": "Yoq",
+			"languageCourses": "Til kurslari",
+			"preparatory": "Tayyorlov fakulteti",
+			"bachelor": "Bakalavr/mutaxassis darajasi",
+			"master": "Magistratura",
+			"paid": "To'lov asosida",
+			"grant": "Byudjet asosida (grand, bepul)",
+			"sameCountry": "Mamlakat ichida",
+			"differentCountry": "Boshqa mamlakatga",
+			"yesBaggage": "Ha, bagaj kerak",
+			"noBaggage": "Bagaj kerak emas",
+			"college": "Kollej (til kurslaridan keyin)",
+			"rvpConsultation": "Konsultatsiya",
+			"rvpDocuments": "Hujjatlarni tayyorlashda yordam",
+			"rvpQueue": "Hujjat topshirish uchun talon olish"
+		},
+		"buttons": {
+			"submit": "Arizani jonatish",
+			"submitTransfer": "Ko'chirish uchun arizani jonatish",
+			"submitBooking": "Bronni jonatish",
+			"bookTicket": "Chiptani bron qilish"
+		}
+	},
+	"footer": {
+		"contact": "Biz bilan bog'laning",
+		"socials": "Bizga obuna bo'ling",
+		"quickLinks": "Tez havolalar",
+		"about": "Biz haqimizda",
+		"description": "2019 yildan beri xorijda ta'lim va viza xizmatlari sohasidagi ishonchli hamkoringiz.",
+		"copyright": "Hamma huquqlar himoyalangan."
+	},
+	"servicesPage": {
+		"hero": {
+			"companyTitle": "STUDENT'S LIFE - QABUL QILISHNING BARCHA NOZIKLIKLARINI BILGAN MUTAXASSISLAR JAMOASI",
+			"companyDescription": "Kompaniya 2020-yilda Kazan shahrida tashkil etilgan va ro'yxatdan o'tgan va xalqaro abituriyentlarni dunyoning yetakchi universitetlariga o'qishga kirishlarida besh yildan ortiq vaqt davomida muvaffaqiyatli qo'llab-quvvatlab kelmoqda, bu jarayonni moslashtirish va tushunarli va sodda qilish bilan bog'liq qiyinchiliklarni bartaraf etib kelmoqda.",
+			"officialReps": "Rossiya (Qozon) va Turkmanistonda (Ashxobod, Lebap, Mary, Dashoguz, Bolqon) rasmiy vakolatxonalariga ega.",
+			"mainHeading": {
+				"part1": "SIZGA",
+				"part2": "YORDAM",
+				"part3": "BERAMIZ"
+			},
+			"services": [
+				"dasturlar va universitetni tanlang",
+				"barcha kerakli hujjatlar to'plamini tayyorlab to'g'ri tartibda topshiring",
+				"kirish imtihonlariga tayyorgarlik",
+				"o'qishga taklifnoma olgandan so'ng viza uchun murojaat qiling",
+				"kelgandan so'ng o'qish shahriga moslashish"
+			]
+		},
+		"coreServices": {
+			"title": "Bizning asosiy xizmatlarimiz",
+			"visa": {
+				"title": "Vizalar",
+				"desc": "Barcha byurokratik jarayonlarni qo'llab-quvvatlash."
+			},
+			"university": {
+				"title": "Universitetga kirish",
+				"desc": "Fakultetni tanlash va arizalarni boshqarish."
+			},
+			"transport": {
+				"title": "Transport va yig'ilish",
+				"desc": "Aviachiptalar va aeroport transferlari."
+			},
+			"translation": {
+				"title": "Ko'chirmalar va hujjatlar",
+				"desc": "Qasamyodli tarjima va nostrifikatsiya (tarjimalarni notarial tasdiqlash)."
+			},
+			"support": {
+				"title": "Moslashish va qo'llab-quvvatlash",
+				"desc": "O'qish shahrida moslashishda yordam va 24/7 ishonch telefoni."
+			},
+			"workVisa": {
+				"title": "Ish Vizasi",
+				"desc": "Ishlash ruxsatnomalari va vizalarini olishda yordam."
+			},
+			"rvp": {
+				"title": "RVPO / RVP / VNJ",
+				"desc": "Rossiyada talabalar va chet el fuqarolari uchun yashash ruxsatnomasini olish."
+			}
+		},
+		"costOfLiving": {
+			"title": "Talabalar hayoti uchun qo'llanma",
+			"subtitle": "Shahar bo'yicha o'rtacha oylik xarajatlar",
+			"rent": "Ijara",
+			"food": "Oziq ovqat",
+			"transport": "Transport",
+			"total": "Jami / Oy",
+			"data": {
+				"russia": {
+					"name": "Rossiya",
+					"cities": [
+						{
+							"name": "Moskva",
+							"rent": "$400-600",
+							"food": "$200-300",
+							"transport": "$30",
+							"total": "$650-1000"
+						},
+						{
+							"name": "Sankt-Peterburg",
+							"rent": "$300-500",
+							"food": "$180-250",
+							"transport": "$25",
+							"total": "$500-800"
+						},
+						{
+							"name": "Kazan",
+							"rent": "$200-350",
+							"food": "$150-200",
+							"transport": "$20",
+							"total": "$350-600"
+						}
+					]
+				},
+				"china": {
+					"name": "Xitoy",
+					"cities": [
+						{
+							"name": "Pekin",
+							"rent": "$500-800",
+							"food": "$250-350",
+							"transport": "$30",
+							"total": "$800-1200"
+						},
+						{
+							"name": "Shanxai",
+							"rent": "$600-900",
+							"food": "$300-400",
+							"transport": "$30",
+							"total": "$900-1400"
+						},
+						{
+							"name": "Guanchjou",
+							"rent": "$400-600",
+							"food": "$200-300",
+							"transport": "$25",
+							"total": "$650-950"
+						}
+					]
+				},
+				"turkey": {
+					"name": "Turkiya",
+					"cities": [
+						{
+							"name": "Stambul",
+							"rent": "$300-500",
+							"food": "$200-300",
+							"transport": "$40",
+							"total": "$550-850"
+						},
+						{
+							"name": "Ankara",
+							"rent": "$200-350",
+							"food": "$150-250",
+							"transport": "$25",
+							"total": "$400-650"
+						},
+						{
+							"name": "Izmir",
+							"rent": "$250-400",
+							"food": "$180-280",
+							"transport": "$30",
+							"total": "$500-750"
+						}
+					]
+				}
+			}
+		},
+		"destinations": {
+			"title": "Mashhur yo'nalishlar",
+			"description": "Bizning eng mashhur o'qish yo'nalishlarimizni o'rganing va akademik sayohatingiz uchun eng zo'r shaharni toping.",
+			"viewAll": "Barcha yo'nalishlarni ko'ring",
+			"viewDetails": "Batafsil ma'lumot",
+			"cities": [
+				{
+					"name": "Moskva",
+					"slug": "moscow",
+					"country": "Rossiya",
+					"countrySlug": "russia",
+					"description": "Tarix va zamonaviy innovatsiyalar uyg'unlashgan Rossiyaning jonli poytaxti. Jahon darajasidagi tibbiyot va muhandislik universitetlari joylashgan.",
+					"majors": "Tibbiyot, muhandislik, IT",
+					"tags": [
+						"TIBBIYOT",
+						"TEXNO",
+						"POYTAXT"
+					],
+					"img": "https://images.unsplash.com/photo-1513326738677-b964603b136d?q=80&w=1000&auto=format&fit=crop"
+				},
+				{
+					"name": "Sankt-Peterburg",
+					"slug": "st-petersburg",
+					"country": "Rossiya",
+					"countrySlug": "russia",
+					"description": "Rossiyaning madaniy yuragi. O'zining hayratlanarli arxitekturasi va nufuzli san'at va gumanitar dasturlari bilan mashhur.",
+					"majors": "San'at, gumanitar fanlar, arxitektura",
+					"tags": [
+						"MADANIYAT",
+						"SAN'AT",
+						"TARIX"
+					],
+					"img": "https://images.unsplash.com/photo-1556610961-2fecc5927173?q=80&w=1000&auto=format&fit=crop"
+				},
+				{
+					"name": "Pekin",
+					"slug": "beijing",
+					"country": "Xitoy",
+					"countrySlug": "china",
+					"description": "Xitoyning siyosiy va ma'rifiy hayotining markazi. Texnologiya va biznesni o'rganish uchun eng yaxshi manzil.",
+					"majors": "Texnologiya, biznes, siyosatshunoslik",
+					"tags": [
+						"TEXNO",
+						"BIZNES",
+						"QADIMIY"
+					],
+					"img": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?q=80&w=1000&auto=format&fit=crop"
+				},
+				{
+					"name": "Shanxai",
+					"slug": "shanghai",
+					"country": "Xitoy",
+					"countrySlug": "china",
+					"description": "Global moliya markazi va kelajak megapolisi. Iqtisodiyot va xalqaro moliya bo'yicha o'qiyotgan talabalar uchun ideal.",
+					"majors": "Moliya, Iqtisodiyot, Savdo",
+					"tags": [
+						"MOLIYA",
+						"ZAMONAVIY",
+						"XAB"
+					],
+					"img": "https://images.unsplash.com/photo-1538428494232-9c0d8a3ab403?q=80&w=1000&auto=format&fit=crop"
+				},
+				{
+					"name": "Stambul",
+					"slug": "istanbul",
+					"country": "Turkiya",
+					"countrySlug": "turkey",
+					"description": "Boy ilmiy merosga ega kontinentlar orasidagi ko'prik. Tarix, arxitektura va muhandislik fakultetlari bilan mashhur.",
+					"majors": "Tarix, arxitektura, muhandislik",
+					"tags": [
+						"KO'PRIK",
+						"HARHILLIK",
+						"TARIX"
+					],
+					"img": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=1000&auto=format&fit=crop"
+				},
+				{
+					"name": "Ankara",
+					"slug": "ankara",
+					"country": "Turkiya",
+					"countrySlug": "turkey",
+					"description": "Turkiyaning ma'muriy markazi va huquq, siyosatshunoslik va ijtimoiy fanlarga ixtisoslashgan yetakchi davlat universitetlari joylashgan uyi.",
+					"majors": "Siyosatshunoslik, huquqshunoslik, ijtimoiy fanlar",
+					"tags": [
+						"SIYOSAT",
+						"HUQUQ",
+						"DAVLAT"
+					],
+					"img": "https://images.unsplash.com/photo-1605259386010-d7003729af98?q=80&w=1000&auto=format&fit=crop"
+				}
+			]
+		},
+		"accommodationAssistant": {
+			"title": "Qayerda yashaysiz?",
+			"dorms": {
+				"title": "Yotoqxona",
+				"price": "$70-$150",
+				"desc": "Eng iqtisodiy variant - bu aloqa."
+			},
+			"shared": {
+				"title": "Talabalar kvartiralari",
+				"price": "$150-$250",
+				"desc": "Ko'proq erkinlik, umumiy xarajatlar."
+			},
+			"private": {
+				"title": "Xususiy kvartira",
+				"price": "$300+",
+				"desc": "To'liq komfort va maxfiylik."
+			}
+		},
+		"trust": {
+			"title": "Rasmiy hujjatlar va litsenziyalar"
+		},
+		"faq": {
+			"title": "Tez-tez so'raladigan savollar",
+			"q1": {
+				"q": "1. Qabul qilish uchun chet el pasportining minimal amal qilish muddati qancha?",
+				"a": "Ko'pgina mamlakatlar pasportning amal qilish muddatiga talab qo'yadilar: u ariza yoki kirish sanasidan boshlab yana 12-18 oy davomida amal qilishi kerak."
+			},
+			"q2": {
+				"q": "2. Chet el pasportini almashtirish uchun sertifikat olish mumkinmi?",
+				"a": "Ha, universitetdan qabul xati pasportni almashtirish yoki uzaytirish uchun asos bo'p hisoblanadi."
+			},
+			"q3": {
+				"q": "3. Ariza berish uchun eng kam yosh qancha? Yosh cheklovlari bormi?",
+				"a": "Odatda, siz 17-18 yoshdan boshlab murojaat qilishingiz mumkin. Odatda pullik ta'lim uchun yuqori yosh chegarasi yo'q, ammo grantlar uchun cheklovlar bo'lishi mumkin (25-30 yosh)."
+			},
+			"q4": {
+				"q": "4. Kontrakt asosida kirish uchun qanday hujjatlar kerak?",
+				"a": "Standart paket: pasport, fotosurat va maktab shahodatnomasi/diplom tarjimasi bilan. Ba'zan tibbiy ma'lumotnoma va bank bayonoti talab qilinadi."
+			},
+			"q5": {
+				"q": "5. Grand asosida kirish uchun qanday hujjatlar kerak?",
+				"a": "Pasport, fotosurat, tarjimasi bilan ta'lim hujjatlari, motivatsiya xati, tavsiyanomalar, sertifikatlar (IELTS/TOEFL/HSK), portfolio va yaxshi akademik ko'rsatkichlar."
+			},
+			"q6": {
+				"q": "6. Hujjatlarni topshirish muddatlari qanday?",
+				"a": "Ular mamlakatga qarab farqlanadi. Kuzgi qabul odatda fevraldan iyulgacha, bahorda esa sentyabrdan noyabrgacha davom etadi. Grantlar muddati ko'pincha ertaroq (qishda)."
+			},
+			"q7": {
+				"q": "7. Boshlash uchun qancha pul kerak?",
+				"a": "Boshlang'ich xarajatlar (viza, chiptalar, dastlabki to'lovlar) odatda mamlakatga qarab 500 dan 1500 dollargacha talab qiladi."
+			},
+			"q8": {
+				"q": "8. Diplom nostrifikatsiyasidan o'tish kerakmi?",
+				"a": "Ha, ko'pgina mamlakatlar (Turkiya, Germaniya, Chexiya va boshqalar) xorijiy ta'lim hujjatlarini tan olish (nostrifikatsiya) tartibini talab qiladi."
+			},
+			"q9": {
+				"q": "9. Ingliz tilida o'qisa bo'ladimi?",
+				"a": "Ha, ingliz tilidagi dasturlar dunyoning ko'pgina yirik universitetlarida mavjud, ammo mutaxassisliklar tanlovi milliy til bilan solishtirganda cheklangan bo'lishi mumkin."
+			},
+			"q10": {
+				"q": "10. O'qish va yashashning taxminiy narxi qancha?",
+				"a": "O'qish: Yiliga $1,500 dan $8,000+. Yashash xarajatlari: oyiga $300 (Xitoy, Turkiya) dan $800+ (Kanada, EI)."
+			},
+			"q11": {
+				"q": "11. Bepul dasturlar yoki stipendiyalar bormi?",
+				"a": "Ha, davlat grantlari (CSC, Türkiye Burslari, Rossiya Federatsiyasi grantlari) va universitet stipendiyalari bor, ular xarajatlarning 25% dan 100% gacha qoplaydi."
+			},
+			"q12": {
+				"q": "12. Talaba vizasini qanday olish mumkin va u qancha vaqt oladi?",
+				"a": "Sizga universitetdan taklifnoma, pasport, moliyaviy yordam va sug'urta kerak bo'ladi. Qayta ishlash muddati 2 haftadan 3 oygacha o'zgaradi."
+			},
+			"q13": {
+				"q": "13. O'qish paytida ishlash mumkinmi?",
+				"a": "Ko'pincha mamlakatlarda (Rossiya, Turkiya, Germaniya, Kanada) talabalarga o'qish vaqtida haftasiga 20 soatgacha, ta'tilda esa to'liq kun ishlashga ruxsat berilgan."
+			}
+		}
+	},
+	"aboutPage": {
+		"hero": {
+			"title": "Ta'lim bo'yicha ishonchli yo'l ko'rsatuvchi",
+			"subtitle": "Talabalarga dunyo bo'ylab o'z maqsadlariga erishishda yordam berish"
+		},
+		"mission": {
+			"title": "Vazifa",
+			"content": "Biz nafaqat maktabni, balki kelajakni ham taqdim etamiz."
+		},
+		"vision": {
+			"title": "Tasavvur",
+			"content": "Global konsaltingda standartlarni belgilaymiz."
+		},
+		"values": {
+			"title": "Qadriyatlar",
+			"content": "Ishonch, Shaffoflik, Barqarorlik."
+		},
+		"timeline": {
+			"title": "Bizning yo'limiz",
+			"milestones": [
+				{
+					"year": "2019",
+					"title": "Tashkillanish",
+					"description": "2019 yilda tashkil etilgan"
+				},
+				{
+					"year": "2022",
+					"title": "Kengayish va yangi filiallar",
+					"description": "2022 yilda Kengayish va yangi filiallar"
+				},
+				{
+					"year": "2025",
+					"title": "1200+ muvaffaqiyatli arizalar",
+					"description": "2025 yilda 1200+ muvaffaqiyatli arizalar"
+				}
+			]
+		},
+		"departments": {
+			"title": "Bizning mutaxassislik sohalarimiz",
+			"list": [
+				{
+					"title": "Xalqaro hamkorlik",
+					"description": "Butun dunyodagi universitetlar bilan hamkorlikni yo'lga qo'yish"
+				},
+				{
+					"title": "Sotish va konsalting",
+					"description": "Ta'lim sayohatingiz uchun ekspert yo'l-yo'riqlari"
+				},
+				{
+					"title": "Mijozlarning muvaffaqiyati",
+					"description": "O'qish davomida barqaror yordamni ta'minlash"
+				},
+				{
+					"title": "Media va kontent",
+					"description": "Talabalar uchun qimmatli manbalarni yaratish"
+				},
+				{
+					"title": "Tarjima xizmatlari",
+					"description": "Hujjatlarni professional tarjima qilish va sertifikatlash"
+				},
+				{
+					"title": "RVPO / RVP / VNJ",
+					"description": "Vaqtinchalik yashash ruxsatnomasi va doimiy yashash huquqini rasmiylashtirish"
+				}
+			]
+		},
+		"licenses": {
+			"title": "Rasmiy ruxsatnomalar",
+			"subtitle": "Sertifikatlangan va xalqaro institutlar tomonidan tan olingan"
+		},
+		"cta": {
+			"title": "Sayohatingizni boshlashga tayyormisiz?",
+			"button": "Biz bilan bog'lanish"
+		}
+	},
+	"thanksPage": {
+		"title": "Rahmat!",
+		"subtitle": "Sizning arizangiz muvaffaqiyatli qabul qilindi",
+		"message": "Bizning jamoamiz keyingi qadamlarni muhokama qilish uchun tez orada siz bilan bog'lanadi.",
+		"ctas": {
+			"instagram": {
+				"title": "Ijtimoiy tarmoqlar",
+				"description": "Talabalar haqidagi yangiliklar va hikoyalar uchun bizni Instagramda kuzatib boring",
+				"button": "Instagramda kuzatib boring"
+			},
+			"pdf": {
+				"title": "Yuklab olinadigan kontent",
+				"description": "Rossiya bo'yicha talabalar uchun qo'llanmani yuklab oling (PDF)",
+				"button": "PDF yuklab olish"
+			},
+			"whatsapp": {
+				"title": "Kontakt",
+				"description": "Kutishni xohlamaysizmi? Biz bilan hozir WhatsApp orqali bog'laning.",
+				"button": "WhatsApp ga yozing"
+			},
+			"home": "Bosh sahifaga qaytish"
+		}
+	},
+	"offices": {
+		"badge": "MANZILLARIMIZ",
+		"title": "Biz sizning yoningizdamiz",
+		"subtitle": "Sizga qulaylik uchun Turkmaniston, O'zbekiston va Rossiyadagi ofislar",
+		"turkmenabat": {
+			"city": "TURKMANOBOD",
+			"address": "Shahar parkining tashqarisidagi ofis binosi, bosh kirishdan chap tomonda 4-ofis"
+		},
+		"mary": {
+			"city": "MARA",
+			"address": "Marv bozori, 40 yil ko'chasi, Belent savdo markazi qarama-qarshisida"
+		},
+		"dashoguz": {
+			"city": "DASHOGUZ",
+			"address": "A. Navoi ko'chasi, 17 uy (Neymat bozori yaqinida)"
+		},
+		"ashgabat": {
+			"city": "ASHXOBOD",
+			"address": "G. Kulieva ko'chasi (Obyezdnaya), Hil Gurlusyk binosi (Regus biznes markazi)"
+		},
+		"balkanabat": {
+			"city": "BALKANOBOD",
+			"address": "8 mart ko'chasi, 22 uy, 2-ofis xonasi"
+		},
+		"tashkent": {
+			"city": "TOSHKENT",
+			"address": "Mirzo-Ulug'bek tumani, Sayram ko'chasi, 1B uy, ofis (1-qavat), o'ngga birinchi burilish (Korzinka Texnomart)"
+		},
+		"kazan": {
+			"city": "KAZAN",
+			"address": "Pushkin ko'chasi, 52 uy, ofis 306/4 (3-qavat)"
+		},
+		"labels": {
+			"address": "Manzil",
+			"phone": "Telefon",
+			"messenger": "TG / WHATSAPP / IMO",
+			"workingHours": "Ish vaqti",
+			"weekdays": "Du-Ju",
+			"saturday": "Shanba",
+			"callOffice": "Ofis bilan bog'lanish",
+			"visitWebsite": "Saytga o'ting"
+		},
+		"countries": {
+			"turkmenistan": "Turkmaniston",
+			"uzbekistan": "O'zbekiston",
+			"russia": "Rossiya"
+		},
+		"websites": {
+			"international": "Chet eldagi foydalanuvchilar uchun",
+			"turkmenistan": "Turkmanistondagi foydalanuvchilar uchun"
+		}
+	},
+	"latestJournal": {
+		"label": "Yangiliklar",
+		"title_part1": "Bizning ohirgi yangiliklarni",
+		"title_part2": "Tadqiq qiling",
+		"viewAll": "Barcha maqolalarni ko'ring",
+		"noImage": "Rasm yo'q",
+		"admin": "Administrator",
+		"readMore": "Ko'proq o'qish"
+	},
+	"featureTabs": {
+		"title": "Talabalarni har tomonlama qo'llab-quvvatlash",
+		"subtitle": "Chet elda o'qishning har bir bosqichida batafsil yordam.",
+		"features": {
+			"admissions": {
+				"title": "Universitetlarga kirish",
+				"description": "Shaxsiy strategiya va batafsil rejalashtirish bilan yetakchi universitetlarga murojaat qilishda hamrohlik."
+			},
+			"visa": {
+				"title": "Viza yordami",
+				"description": "Yuqori foizli tasdiqlash va hujjatlarni har tomonlama tekshirish bilan talaba vizasini oson rasmiylashtirish."
+			},
+			"accommodation": {
+				"title": "Uy-joy",
+				"description": "Kampus yaqinida xavfsiz, arzon va qulay turar joy toping."
+			},
+			"career": {
+				"title": "Ta'lim mamlakatiga moslashish",
+				"description": "Hujjatlar bilan yordam berish, sim-kartani sotib olish, bank hisob raqamini ochish, valyuta ayirboshlashda yordam berish."
+			}
+		}
+	},
+	"howItWorks": {
+		"badge": "OSON BOSHLASH",
+		"title": "Bu qanday ishlaydi?",
+		"getStarted": "Boshlang",
+		"currentStep": "Joriy qadam",
+		"phase": "Bosqich",
+		"steps": {
+			"consultation": {
+				"title": "Bepul suhbat",
+				"description": "Biz sizning intilishlaringizga mos keladigan eng yaxshi universitetlar va dasturlarni tavsiya qilish uchun akademik profilingiz va martaba maqsadlaringizni tahlil qilamiz."
+			},
+			"preparation": {
+				"title": "Tayyorgarlik va viza",
+				"description": "Bizning mutaxassislarimiz ariza berish, hujjatlarni tekshirish va viza uchun hujjatlarni to'g'ri topshirish jarayonini olib boradilar."
+			},
+			"departure": {
+				"title": "Uchib ketish va qo'llab-quvvatlash",
+				"description": "Aviachiptalarni bron qilishdan tortib, turar joy topishgacha, biz sizni yangi talabalik hayotingizga joylashmaguningizcha qo'llab-quvvatlaymiz."
+			}
+		}
+	},
+	"processWorkflow": {
+		"badge": "Bizning Jarayonimiz",
+		"title": "Bizning 5 bosqichli ish jarayonimiz",
+		"description": "Bizning 5 bosqichli samarali ish oqimimiz optimallashtirilgan echimlarni taqdim etadi. Biz sizning ehtiyojlaringizni tushunishdan boshlaymiz, keyin rejalashtiramiz, loyihalashtiramiz, quramiz va diqqat bilan sinovdan o'tkazamiz.",
+		"cta": "Biz haqimizda ko'proq bilib oling",
+		"steps": {
+			"s1": {
+				"number": "01",
+				"title": "Bepul suhbat",
+				"desc": "Biz maqsadlar, imkoniyatlar va istaklarni o'rganamiz, maqul yo'nalish va universitetni tanlaymiz"
+			},
+			"s2": {
+				"number": "02",
+				"title": "Yechimlar va strategiyalarni tanlash",
+				"desc": "Biz individual harakatlar rejasini tuzamiz va eng yaxshi variantlarni taklif qilamiz."
+			},
+			"s3": {
+				"number": "03",
+				"title": "Tayyorgarlik va rasmiylashtirmoq",
+				"desc": "Biz har bir bosqichda hamroh bo'lamiz: hujjatlar, muddatlar, talablar, qismlarni boshqarish."
+			},
+			"s4": {
+				"number": "04",
+				"title": "Amalga oshirish va qo'llab-quvvatlash",
+				"desc": "Biz jarayonni tashkil qilamiz, aloqada bo'lamiz va barcha muammolarni tezda hal qilamiz."
+			},
+			"s5": {
+				"number": "05",
+				"title": "Natija va keyingi yordam",
+				"desc": "Biz yakuniy maqsadga erishamiz va rivojlanishning keyingi bosqichida yordam beramiz."
+			}
+		}
+	},
+	"cookies": {
+		"title": "Biz sizning maxfiyligingizni qadrlaymiz",
+		"description": "Biz cookie-fayllardan sayt bilan ishlash tajribangizni yaxshilash va trafikimizni tahlil qilish uchun foydalanamiz. \"Qabul qilish\" tugmasini bosish orqali siz cookie-fayllardan foydalanishimizga rozilik bildirasiz.",
+		"accept": "Qabul qilish",
+		"decline": "Rad etish",
+		"policy": "Cookie siyosati"
+	},
+	"contactForm": {
+		"badge": "Biz bilan bog'laning",
+		"title": "Biz bilan bog'laning",
+		"subtitle": "Quyidagi shaklni to'ldiring va biz tez orada siz bilan bog'lanamiz.",
+		"success": "Xabar muvaffaqiyatli yuborildi!",
+		"submit": "Xabar yuboring",
+		"sending": "Yuborilinmoqda...",
+		"privacyModal": "Sizning maxfiyligingizni qadrlaymiz. Ma'lumotlaringiz xavfsiz.",
+		"telegramPrivacyTitle": "Telegram Maxfiyligi",
+		"fields": {
+			"name": "To'liq ism",
+			"email": "Elektron pochta",
+			"phone": "Telefon raqami",
+			"telegramUsername": "Telegram foydalanuvchi nomi",
+			"contactPreference": "Aloqa usuli"
+		},
+		"placeholders": {
+			"name": "To'liq ism",
+			"email": "Elektron pochta",
+			"phone": "Telefon raqami",
+			"telegram": "@username yoki telefon"
+		},
+		"preferences": {
+			"whatsapp": "WhatsApp",
+			"telegram": "Telegram",
+			"call": "Qo'ng'iroq",
+			"email": "Email"
+		},
+		"countryLabels": {
+			"russia": "RF",
+			"turkmenistan": "TM",
+			"other": "Boshqalar"
+		}
+	},
+	"legal": {
+		"privacyPolicy": {
+			"title": "Maxfiylik siyosati",
+			"lastUpdated": "Oxirgi yangilangan: 2026 yil yanvar",
+			"content": "Sizning maxfiyligingizni biz uchun muhimdir. Student's Life https://studs-life.com veb-saytimizda va biz egalik qiladigan va boshqaradigan boshqa saytlarda sizdan to'plashimiz mumkin bo'lgan har qanday ma'lumot uchun maxfiyligingizni hurmat qilishga intiladi."
+		},
+		"termsOfUse": {
+			"title": "Foydalanish shartlari",
+			"lastUpdated": "Oxirgi yangilangan: 2026 yil yanvar",
+			"content": "https://studs-life.com saytiga kirib siz ushbu xizmat shartlariga, barcha amaldagi qonunlar va qoidalarga rioya qilishga rozilik bildirasiz va amaldagi mahalliy qonunlarga rioya qilish uchun javobgar ekanligingizga rozilik bildirasiz."
+		},
+		"cookiePolicy": {
+			"title": "Cookie siyosati",
+			"lastUpdated": "Oxirgi yangilangan: 2026 yil yanvar",
+			"content": "Ushbu veb-sayt saytni kezish paytida tajribangizni yaxshilash uchun cookie-fayllardan foydalanadi. Ulardan kerakli deb tasniflangan cookie-fayllar brauzeringizda saqlanadi, chunki ular veb-saytning asosiy funktsiyalari ishlashi uchun zarurdir."
+		}
+	},
+	"partnershipPage": {
+		"hero": {
+			"badge": "UNIVERSITETLAR VA HAMKORLAR UCHUN",
+			"title": "Student's Life bilan hamkorlik qiling",
+			"subtitle": "Biz Turkmaniston, O'zbekiston va MDH davlatlaridan iqtidorli talabalarni dunyoning yetakchi universitetlari bilan bog'laymiz. 8 davlatdagi 50+ hamkor universitetimiz tarmog'iga qo'shiling.",
+			"cta": "Hamkor bo'ling"
+		},
+		"contact": {
+			"title": "Hamkorlik uchun aloqa",
+			"role": "B2B hamkorlik menejeri",
+			"department": "Students Life B2B bo'limi",
+			"phone": "+99371250041",
+			"email": "partners@stud-life.com",
+			"location": "Turkmaniston, Turkmanobod, shahar bog'i tashqi ofis binosi, 4-ofis",
+			"startDate": "2025 yil iyundan beri"
+		},
+		"b2bModels": {
+			"title": "B2B hamkorlik modellari",
+			"subtitle": "Muassasalar va agentliklar uchun moslashuvchan hamkorlik variantlari",
+			"items": [
+				{
+					"title": "B2B Agentlik hamkorligi",
+					"description": "Talabalarni yo'naltirish va jalb qilish uchun muassasalar va agentliklar bilen birgalikdagi ish.",
+					"icon": "building"
+				},
+				{
+					"title": "PR va media xizmatlari",
+					"description": "Hamkorlarning tanilishi uchun Student's Life nomidan PR va kontent ishlab chiqarish.",
+					"icon": "megaphone"
+				},
+				{
+					"title": "Komissiya / Referal modeli",
+					"description": "Yo'naltirilgan har bir talaba uchun to'lov.",
+					"icon": "coins"
+				},
+				{
+					"title": "B2C Qo'llab-quvvatlash",
+					"description": "Individual talabalarga qaratilgan xizmatlar uchun institutsional qo'llab-quvvatlash.",
+					"icon": "users"
+				},
+				{
+					"title": "Green Card va immigratsiya maslahati",
+					"description": "Uzoq muddatli joylashish va immigratsiya jarayonlarida yordam.",
+					"icon": "globe"
+				},
+				{
+					"title": "24/7 Qo'llab-quvvatlash",
+					"description": "Student's Life jamoasi bilan kechayu kunduz uzluksiz aloqa.",
+					"icon": "headphones"
+				}
+			]
+		},
+		"benefits": {
+			"title": "Nima uchun biz bilan hamkorlik qilish kerak?",
+			"subtitle": "Biz talabalarni jalb qilish va qo'llab-quvvatlash bo'yicha to'liq xizmat ko'rsatamiz",
+			"items": [
+				{
+					"title": "Talabalarni jalb qilish",
+					"description": "Turkmaniston, O'zbekiston va MDH davlatlaridan xalqaro ta'lim izlayotgan g'ayratli talabalarga kirish imkoniyatini oling.",
+					"icon": "users"
+				},
+				{
+					"title": "Marketing va tanilganlik",
+					"description": "Bizning rivojlangan tarmog'imiz va marketing kanallari orqali universitetingizning Markaziy Osiyodagi brendini kuchaytiring.",
+					"icon": "megaphone"
+				},
+				{
+					"title": "Talabalarga to'liq yordam",
+					"description": "Biz viza, turar joy, aeroport transferi va moslashishni o'z zimmamizga olamiz.",
+					"icon": "shield"
+				},
+				{
+					"title": "Shaxsiy hamkorlik menejeri",
+					"description": "Har bir hamkor universitet uzluksiz aloqa va talabalarni muvofiqlashtirish uchun alohida menejer oladi.",
+					"icon": "handshake"
+				}
+			]
+		},
+		"geography": {
+			"title": "Bizning geografiyamiz",
+			"subtitle": "Biz 8 davlat va 30+ shaharda universitetlar bilan ishlaymiz",
+			"countries": {
+				"turkey": {
+					"name": "Turkiya",
+					"flag": "🇹🇷",
+					"cities": {
+						"Istanbul": [
+							"Istanbul University",
+							"Bogazici University",
+							"ITU",
+							"Koc University",
+							"Medipol University"
+						],
+						"Ankara": [
+							"METU",
+							"Ankara University",
+							"Hacettepe University",
+							"Bilkent University",
+							"TOBB University"
+						],
+						"Izmir": [
+							"Ege University",
+							"Dokuz Eylul University",
+							"IZTECH",
+							"Yasar University",
+							"IEU"
+						],
+						"Bursa": [
+							"Uludag University",
+							"Bursa Technical University",
+							"Mudanya University",
+							"Bursa Orhangazi University"
+						],
+						"Manisa": [
+							"Manisa Celal Bayar University (MCBU)"
+						],
+						"Konya": [
+							"Selcuk University",
+							"Necmettin Erbakan University",
+							"KTO Karatay University",
+							"Konya Technical University"
+						]
+					},
+					"programs": [
+						"Erasmus",
+						"Mevlana"
+					]
+				},
+				"germany": {
+					"name": "Germaniya",
+					"flag": "🇩🇪",
+					"cities": {
+						"Turli shaharlar": [
+							"TU Munich",
+							"RWTH Aachen",
+							"University of Stuttgart",
+							"Jacobs University Bremen",
+							"Hochschule Bonn-Rhein-Sieg"
+						]
+					},
+					"programs": [
+						"2000+ dastur",
+						"IT yo'nalish"
+					]
+				},
+				"china": {
+					"name": "Xitoy",
+					"flag": "🇨🇳",
+					"cities": {
+						"Sian": [
+							"XJTU",
+							"Xi'an International Studies University"
+						],
+						"Boshqa shaharlar": [
+							"Zhejiang University",
+							"Nanjing University",
+							"Beijing Normal University",
+							"GDUFS",
+							"SCUT",
+							"SYSU"
+						]
+					}
+				},
+				"cyprus": {
+					"name": "Kipr",
+					"flag": "🇨🇾",
+					"cities": {
+						"Nikosiya": [
+							"University of Nicosia",
+							"NEU",
+							"CIU"
+						]
+					},
+					"programs": [
+						"IT",
+						"Tibbiyot",
+						"Biznes"
+					]
+				},
+				"bulgaria": {
+					"name": "Bolgariya",
+					"flag": "🇧🇬",
+					"cities": {
+						"Varna": [
+							"VUM",
+							"Medical University of Varna",
+							"Technical University of Varna",
+							"University of Economics Varna"
+						]
+					},
+					"programs": [
+						"Erasmus a'zosi"
+					]
+				},
+				"canada": {
+					"name": "Kanada",
+					"flag": "🇨🇦",
+					"cities": {
+						"Turli shaharlar": [
+							"25 universitet"
+						]
+					},
+					"programs": [
+						"WES/ECA",
+						"PGWP"
+					]
+				},
+				"belarus": {
+					"name": "Belarus",
+					"flag": "🇧🇾",
+					"cities": {
+						"Grodno": [
+							"Yanka Kupala nomidagi Grodno davlat universiteti"
+						]
+					}
+				},
+				"russia": {
+					"name": "Rossiya",
+					"flag": "🇷🇺",
+					"cities": {
+						"Moskva": [],
+						"Sankt-Peterburg": [],
+						"Kazan": [],
+						"Ufa": [],
+						"Irkutsk": [],
+						"Saransk": [],
+						"Arxangelsk": [],
+						"Kaliningrad": [],
+						"Sevastopol": [],
+						"Innopolis": [],
+						"Novosibirsk": [],
+						"Oryol": [],
+						"Tula": []
+					}
+				}
+			}
+		},
+		"stats": {
+			"students": "1200+",
+			"studentsLabel": "Joylashtirilgan talabalar",
+			"universities": "50+",
+			"universitiesLabel": "Hamkor universitetlar",
+			"countries": "8",
+			"countriesLabel": "Davlat",
+			"cities": "30+",
+			"citiesLabel": "Shahar",
+			"years": "5+",
+			"yearsLabel": "Yillik tajriba"
+		},
+		"cta": {
+			"title": "Hamkorlikka tayyormisiz?",
+			"subtitle": "Bizning o'sib borayotgan hamkor universitetlar tarmog'imizga qo'shiling va iqtidorli xalqaro talabalarga kirish imkoniyatini oling.",
+			"button": "Biz bilan bog'laning",
+			"email": "partners@stud-life.com",
+			"emailLabel": "Yoki bizga to'g'ridan-to'g'ri yozing"
+		}
+	},
+	"reviews": {
+		"badge": "SHARHLAR",
+		"title": "Talabalarimiz nima deydi",
+		"subtitle": "Yordam bergan talabalarning haqiqiy sharhlari",
+		"formTitle": "Sharh qoldiring",
+		"name": "To'liq ism",
+		"city": "Shahringiz",
+		"service": "Xizmat",
+		"rating": "Baho",
+		"content": "Sharhingiz",
+		"submit": "Sharh yuborish",
+		"success": "Rahmat! Sharhingiz moderatsiyadan so'ng nashr etiladi.",
+		"error": "Xatolik yuz berdi. Qaytadan urinib ko'ring.",
+		"empty": "Hali sharh yo'q. Birinchi bo'ling!",
+		"services": {
+			"university": "Universitetga kirish",
+			"school": "Maktab",
+			"transfer": "Transfer",
+			"visa": "Viza",
+			"umrah": "Umra",
+			"ticket": "Chipta",
+			"other": "Boshqa"
+		},
+		"viewAll": "Barcha sharhlar →",
+		"reviewCount": "sharh",
+		"backHome": "Bosh sahifaga"
+	}
+}

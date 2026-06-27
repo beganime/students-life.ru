@@ -1,0 +1,23 @@
+
+> studs-life-test@0.1.0 build
+> next build
+
+   ▲ Next.js 16.0.7 (Turbopack)
+
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 3.3s
+   Running TypeScript ...
+Failed to compile.
+
+./src/middleware.ts:36:33
+Type error: Property 'geo' does not exist on type 'NextRequest'.
+
+[0m [90m 34 |[39m     [36mif[39m (pathnameIsMissingLocale) {
+ [90m 35 |[39m         [90m// IP-based detection using Vercel's geolocation[39m
+[31m[1m>[22m[39m[90m 36 |[39m         [36mconst[39m country [33m=[39m request[33m.[39mgeo[33m?[39m[33m.[39mcountry [33m||[39m [32m"US"[39m[33m;[39m
+ [90m    |[39m                                 [31m[1m^[22m[39m
+ [90m 37 |[39m         [36mconst[39m cisCountries [33m=[39m [[32m"RU"[39m[33m,[39m [32m"BY"[39m[33m,[39m [32m"KZ"[39m[33m,[39m [32m"UZ"[39m[33m,[39m [32m"KG"[39m[33m,[39m [32m"TJ"[39m[33m,[39m [32m"TM"[39m[33m,[39m [32m"AM"[39m[33m,[39m [32m"AZ"[39m[33m,[39m [32m"MD"[39m[33m,[39m [32m"UA"[39m][33m;[39m
+ [90m 38 |[39m
+ [90m 39 |[39m         [90m// Explicit rule from requirements: [39m[0m
+Next.js build worker exited with code: 1 and signal: null

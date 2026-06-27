@@ -1,0 +1,591 @@
+
+> studs-life-test@0.1.0 build
+> next build
+
+⚠ `eslint` configuration in next.config.ts is no longer supported. See more info here: https://nextjs.org/docs/app/api-reference/cli/next#next-lint-options
+⚠ Invalid next.config.ts options detected: 
+⚠     Unrecognized key(s) in object: 'eslint'
+⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+▲ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+- Experiments (use with caution):
+  · optimizePackageImports
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+✓ Compiled successfully in 5.3s
+  Skipping validation of types
+  Collecting page data using 11 workers ...
+(node:31972) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Build-time fetch failed: Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async Module.bS (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:30208)
+    at async Object.n [as generateStaticParams] (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__733dc6df._.js:1:3590) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Build-time fetch failed: Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async Module.bS (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:30208)
+    at async Object.n [as generateStaticParams] (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__733dc6df._.js:1:3590) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Build-time fetch failed: Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async Module.bS (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:30208)
+    at async Object.n [as generateStaticParams] (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__733dc6df._.js:1:3590) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Build-time fetch failed: Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async Module.bS (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:30208)
+    at async Object.n [as generateStaticParams] (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__733dc6df._.js:1:3590) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+(node:32448) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Build-time fetch failed (this is expected if Strapi is not reachable during build): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bU (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:30608)
+    at async Object.av [as generateStaticParams] (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\src_app_[lang]_[country]_[city]_page_tsx_d506187e._.js:59:803) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Build-time fetch failed (this is expected if Strapi is not reachable during build): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bU (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:30608)
+    at async Object.av [as generateStaticParams] (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\src_app_[lang]_[country]_[city]_page_tsx_d506187e._.js:59:803) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Build-time fetch failed (this is expected if Strapi is not reachable during build): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bU (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:30608)
+    at async Object.av [as generateStaticParams] (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\src_app_[lang]_[country]_[city]_page_tsx_d506187e._.js:59:803) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Build-time fetch failed (this is expected if Strapi is not reachable during build): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bU (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:30608)
+    at async Object.av [as generateStaticParams] (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\src_app_[lang]_[country]_[city]_page_tsx_d506187e._.js:59:803) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+  Generating static pages using 11 workers (0/50) ...
+(node:29700) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:14800) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+BlogPage fetch failed: Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bU (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:30608)
+    at async n (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__3580e6e1._.js:1:2027) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+BlogPage fetch failed: Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bU (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:30608)
+    at async n (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__3580e6e1._.js:1:2027) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+BlogPage fetch failed: Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bU (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:30608)
+    at async n (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__3580e6e1._.js:1:2027) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+BlogPage fetch failed: Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bU (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:30608)
+    at async n (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__3580e6e1._.js:1:2027) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+  Generating static pages using 11 workers (12/50) 
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Layout fetch failed (countries): Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async bY (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31406)
+    at async v (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__fc4df603._.js:3:12033) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401
+}
+Error occurred prerendering page "/ru/teams". Read more: https://nextjs.org/docs/messages/prerender-error
+Error [AxiosError]: Request failed with status code 401
+    at aD (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:1:88515)
+    at IncomingMessage.<anonymous> (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:12060)
+    at bK.request (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:24563)
+    at async b$ (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\_9193cda7._.js:3:31618)
+    at async i (C:\Users\bozkurz\Desktop\projects\studs-life\.next\server\chunks\ssr\[root-of-the-server]__f42a4e1c._.js:1:2524) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object],
+  request: [ClientRequest],
+  response: [Object],
+  status: 401,
+  digest: '1690724813'
+}
+Export encountered an error on /[lang]/teams/page: /ru/teams, exiting the build.
+⨯ Next.js build worker exited with code: 1 and signal: null

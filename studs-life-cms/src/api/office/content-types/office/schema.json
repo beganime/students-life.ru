@@ -1,0 +1,35 @@
+{
+    "kind": "collectionType",
+    "collectionName": "offices",
+    "info": {
+        "singularName": "office",
+        "pluralName": "offices",
+        "displayName": "Office",
+        "description": "Company offices/branches"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "photo": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": ["images"]
+        },
+        "order": {
+            "type": "integer",
+            "default": 0
+        },
+        "teamMembers": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::team-member.team-member",
+            "mappedBy": "office"
+        }
+    }
+}

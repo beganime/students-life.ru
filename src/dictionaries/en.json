@@ -1,0 +1,1295 @@
+{
+	"metadata": {
+		"title": "Student's Life | Study Abroad, Visa & Travel Services",
+		"description": "Expert guidance for university admissions, visa processing, and relocation support in Russia, China, Turkey, and Europe.",
+		"pages": {
+			"services": {
+				"title": "Services | Student's Life",
+				"description": "Complete student support: university admissions, visa assistance, accommodation, document translation. 99% success rate. Free consultation."
+			},
+			"about": {
+				"title": "About Us | Student's Life",
+				"description": "Student's Life - international education consultancy since 2019. 1200+ successful admissions. Offices in Russia and Turkmenistan."
+			},
+			"contact": {
+				"title": "Contact Us | Student's Life",
+				"description": "Get in touch for a free consultation. Offices in Ashgabat, Turkmenabat, Mary, Dashoguz, and Kazan."
+			},
+			"teams": {
+				"title": "Our Team | Student's Life",
+				"description": "Meet our expert team of education consultants. Visa specialists, mentors, and advisors dedicated to your success."
+			},
+			"blog": {
+				"title": "News & Blog | Student's Life",
+				"description": "Helpful articles, guides, and news for students. Tips on admissions, visas, and life abroad."
+			}
+		}
+	},
+	"hero": {
+		"title": "INTERNATIONAL PARTNERSHIP",
+		"subtitle": "In The Field Of Attracting International Students",
+		"description": "Official Partner Of Universities In Russia, Europe And Asia",
+		"cta": "Apply Now",
+		"rightTitle": "SHAPE YOUR FUTURE",
+		"rightSubtitle": "Unlock global career opportunities with world-class education.",
+		"partnerText": "Official Partner Of Universities In Russia, Europe And Asia"
+	},
+	"nav": {
+		"home": "Home",
+		"services": "Services",
+		"team": "Team",
+		"about": "About",
+		"contact": "Contact",
+		"countries": "Countries",
+		"company": "Company",
+		"letsTalk": "Let's Talk",
+		"megaMenu": {
+			"about": "About Us",
+			"aboutDesc": "Learn about our mission and values",
+			"team": "Our Team",
+			"teamDesc": "Meet the experts behind our success",
+			"careers": "Careers",
+			"careersDesc": "Join our growing international team",
+			"services": "Services",
+			"servicesDesc": "Comprehensive educational support",
+			"pricing": "Pricing",
+			"pricingDesc": "Transparent packages and costs",
+			"blog": "News",
+			"blogDesc": "Latest news and student guides",
+			"partnership": "Partnership",
+			"partnershipDesc": "Collaborate with us as a university",
+			"universities": "University List",
+			"universitiesDesc": "Recognized universities of Turkmenistan",
+			"getConsultation": "Get Free Consultation",
+			"studentName": "Student Success",
+			"studentRole": "Alumni",
+			"studentQuote": "We build bridges between dreams and reality for students worldwide."
+		}
+	},
+	"services": {
+		"badge": "Our Services",
+		"title": "Comprehensive Educational Support",
+		"visa": "Visa Services",
+		"visaDesc": "99% Success Rate",
+		"university": "University Admission",
+		"universityDesc": "Top Global Universities",
+		"translation": "Document Translation",
+		"translationDesc": "Certified & Fast",
+		"accommodationDesc": "Dorms & Apartments",
+		"ticket": "Flight Tickets",
+		"ticketDesc": "Student Discounts",
+		"visaFeatures": [
+			"Document checklist",
+			"Application filing",
+			"Consulate interview",
+			"Biometrics booking",
+			"Passport collection"
+		],
+		"getStarted": "Get started",
+		"chat": {
+			"greeting": "Hey there! 👋",
+			"help": "How can I help?"
+		}
+	},
+	"countries": {
+		"badge": "Destinations",
+		"title": "Popular Destinations",
+		"description": "Discover the best countries for your international education journey with our expert guidance.",
+		"viewMore": "Go to page",
+		"contactCta": "Get in Touch",
+		"russia": {
+			"name": "Russia",
+			"slogan": "A world of boundless horizons and fundamental knowledge",
+			"description": "With a rich history of scientific excellence, Russia offers world-class education in medicine, engineering, and the arts at an affordable cost.",
+			"tags": [
+				"AFFORDABLE",
+				"STEM",
+				"CULTURE"
+			]
+		},
+		"china": {
+			"name": "China",
+			"slogan": "Synergy of ancient wisdom and future technologies",
+			"description": "Experience the pulse of the world's fastest-growing economy while studying at prestigious universities leading in tech and innovation.",
+			"tags": [
+				"TECH",
+				"FUTURE",
+				"GLOBAL HUB"
+			]
+		},
+		"turkey": {
+			"name": "Turkey",
+			"slogan": "Crossroads of civilizations and vibrant student life",
+			"description": "Enjoy a unique blend of Eastern and Western cultures, modern campuses, and a welcoming atmosphere for international students.",
+			"tags": [
+				"MEDITERRANEAN",
+				"DIVERSITY",
+				"HISTORY"
+			]
+		},
+		"cyprus": {
+			"name": "Cyprus",
+			"slogan": "A sunny island of European education and comfort",
+			"description": "Safe, sunny, and strictly following European standards, Cyprus is an ideal location for students seeking quality and relaxation.",
+			"tags": [
+				"EUROPEAN",
+				"ISLAND LIFE",
+				"SECURE"
+			]
+		},
+		"belarus": {
+			"name": "Belarus",
+			"slogan": "Hospitality, safety, and academic traditions",
+			"description": "Known for its high academic standards and safe environment, Belarus provides excellent value and traditional European schooling.",
+			"tags": [
+				"TRADITION",
+				"VALUE",
+				"SAFETY"
+			]
+		},
+		"bulgaria": {
+			"name": "Bulgaria",
+			"slogan": "Affordable European education on the Black Sea coast",
+			"description": "Gateway to the European Union with reputable medical and artistic programs in a beautiful Black Sea setting.",
+			"tags": [
+				"EU GATEWAY",
+				"COASTAL",
+				"PRESTIGIOUS"
+			]
+		}
+	},
+	"whyUs": {
+		"titlePart1": "WHY",
+		"titlePart2": "WITH US",
+		"titlePart3": "PROFITABLE?",
+		"decoration": "COOPERATION",
+		"badge": "7 Reasons",
+		"leftFeatures": [
+			"Stable flow of foreign students every year",
+			"Pre-selected and prepared candidates"
+		],
+		"rightFeatures": [
+			"Full cycle support from application to adaptation",
+			"Legal transparency and official work format",
+			"High-level students increasing university academic rating",
+			"Joint educational and PR projects",
+			"Predictable quota increase and long-term cooperation"
+		],
+		"partnersContact": "For partners:",
+		"partnersEmail": "partners@stud-life.com",
+		"partnersPhone": "+99371250041",
+		"universitiesContact": "For universities:",
+		"universitiesEmail": "uni@stud-life.com",
+		"universitiesPhone": "+99371199151"
+	},
+	"team": {
+		"badge": "Our Team",
+		"title": "The Experts Behind Us",
+		"description": "Dedicated individuals passionate about holistic well-being. Meet the diverse team driving innovation and shaping the future of wellness.",
+		"testimonials_title": "Student Testimonials",
+		"videoTestimonialCategory": "Video Testimonial",
+		"cta_card_title": "Meet Our Whole Team",
+		"cta_card_desc": "Explore the full directory of our dedicated professionals.",
+		"cta_card_button": "View All Team"
+	},
+	"teamMember": {
+		"backToTeam": "Back to Team",
+		"contactInfo": "Contact Information",
+		"responsibilities": "Expertise & How I Can Help",
+		"since": "With us since",
+		"breadcrumbHome": "Home",
+		"breadcrumbTeam": "Team"
+	},
+	"statistics": {
+		"badge": "Statistics",
+		"description": "Our dedicated team of education consultants, visa experts, and mentors works tirelessly to ensure your success.",
+		"results": {
+			"totalStudents": "Students over all time",
+			"lastYearStudents": "Students only last academic year",
+			"averageGrowth": "Average annual growth",
+			"firstAttempt": "Enroll on first attempt",
+			"scholarships": "Receive scholarships"
+		},
+		"geographyTitle": "STUDENT GEOGRAPHY",
+		"geography": {
+			"turkmenistan": "Turkmenistan",
+			"turkey": "Turkey",
+			"china": "China",
+			"uzbekistan": "Uzbekistan",
+			"tajikistan": "Tajikistan"
+		}
+	},
+	"form": {
+		"title": "Quick Application",
+		"selectService": "Select the service you need",
+		"backButton": "Back to service selection",
+		"steps": "Steps",
+		"navigation": {
+			"back": "Back",
+			"next": "Next",
+			"submit": "Submit Application"
+		},
+		"stepTitles": {
+			"serviceSelection": "Which service do you need?",
+			"personalInfo": "Tell us about yourself",
+			"serviceDetails": "Service Details",
+			"additionalInfo": "Additional Information"
+		},
+		"stepDescriptions": {
+			"serviceSelection": "Choose the service you need",
+			"personalInfo": "We need to validate your information, for that we need some personal data",
+			"serviceDetails": "Provide details about your request",
+			"additionalInfo": "Any additional information"
+		},
+		"services": {
+			"university": {
+				"title": "University Application",
+				"desc": "Apply to universities abroad"
+			},
+			"transfer": {
+				"title": "Transfer between Universities",
+				"desc": "Transfer to another university"
+			},
+			"school": {
+				"title": "School in China",
+				"desc": "Enroll in Chinese schools"
+			},
+			"umrah": {
+				"title": "Umrah to Mecca",
+				"desc": "14-day pilgrimage package"
+			},
+			"workVisa": {
+				"title": "Work Visa",
+				"desc": "Work permit assistance"
+			},
+			"ticket": {
+				"title": "Flight Tickets",
+				"desc": "Book your flights"
+			},
+			"rvp": {
+				"title": "RVP / RVPO / VNJ",
+				"desc": "Assistance with Russian residence permits"
+			}
+		},
+		"fields": {
+			"fullName": "Full Name",
+			"studentName": "Student Name",
+			"parentName": "Parent Name",
+			"phone": "Phone Number",
+			"email": "Email",
+			"dateOfBirth": "Date of Birth",
+			"relationship": "Relationship",
+			"educationLevel": "Education Level",
+			"targetCountry": "Target Country",
+			"fieldOfStudy": "Field of Study",
+			"citizenship": "Citizenship",
+			"region": "Region",
+			"city": "City",
+			"currentEducationLevel": "Current Education Level",
+			"currentUniversity": "Current University",
+			"currentCountry": "Current Country",
+			"currentField": "Current Field of Study",
+			"paymentType": "Payment Type",
+			"transferType": "Transfer Type",
+			"targetUniversity": "Target University",
+			"targetField": "Target Field",
+			"hasPassport": "Has Passport?",
+			"passportExpiry": "Passport Expiry",
+			"travelMonth": "Travel Month",
+			"workPreferences": "Work Preferences",
+			"previousTravel": "Previous Travel/Deportation History",
+			"fromCity": "From City",
+			"toCity": "To City",
+			"travelDate": "Travel Date",
+			"needsBaggage": "Baggage",
+			"rvpType": "Applying for",
+			"legalBasis": "Legal basis for application",
+			"applicationCity": "City of application",
+			"hasViolations": "Administrative violation?",
+			"rvpService": "Service required"
+		},
+		"placeholders": {
+			"fullName": "Enter full name",
+			"phone": "+993 XX XXX XXX",
+			"email": "example@email.com",
+			"fieldOfStudy": "e.g. Computer Science",
+			"city": "Enter your city",
+			"fromCity": "e.g. Ashgabat",
+			"toCity": "e.g. Moscow",
+			"workPreferences": "What skills do you have? Where would you like to work?",
+			"previousTravel": "Have you traveled abroad before? Any deportation history?",
+			"legalBasis": "State the basis",
+			"applicationCity": "e.g. Kazan"
+		},
+		"options": {
+			"select": "Select",
+			"selectLevel": "Select level",
+			"selectRelationship": "Select relationship",
+			"selectCountry": "Select country",
+			"selectRegion": "Select region",
+			"selectMonth": "Select month",
+			"self": "Self",
+			"father": "Father",
+			"mother": "Mother",
+			"friend": "Friend",
+			"yes": "Yes",
+			"no": "No",
+			"languageCourses": "Language courses",
+			"preparatory": "Preparatory faculty",
+			"bachelor": "Bachelor/Specialist",
+			"master": "Master",
+			"paid": "Paid",
+			"grant": "Grant (Free)",
+			"sameCountry": "Within same country",
+			"differentCountry": "To different country",
+			"yesBaggage": "Yes, I need baggage",
+			"noBaggage": "No baggage needed",
+			"college": "College (after language courses)",
+			"rvpConsultation": "Consultation",
+			"rvpDocuments": "Document preparation assistance",
+			"rvpQueue": "Getting a queue number for submission"
+		},
+		"buttons": {
+			"submit": "Submit Application",
+			"submitTransfer": "Submit Transfer Request",
+			"submitBooking": "Submit Booking",
+			"bookTicket": "Book Ticket"
+		}
+	},
+	"footer": {
+		"contact": "Contact Us",
+		"socials": "Follow Us",
+		"quickLinks": "Quick Links",
+		"about": "About Us",
+		"description": "Your reliable partner for education abroad and visa services since 2019.",
+		"copyright": "All rights reserved."
+	},
+	"servicesPage": {
+		"hero": {
+			"companyTitle": "STUDENT'S LIFE - A TEAM OF PROFESSIONALS WHO KNOW ALL THE NUANCES OF ADMISSION",
+			"companyDescription": "The company was founded and registered in Kazan in 2020 and for more than 5 years has been successfully accompanying international applicants when entering leading universities in the world, saving students from adaptation problems and making the process clear and simple.",
+			"officialReps": "Has official representative offices in Russia (Kazan) and Turkmenistan (Ashgabat, Lebap, Mary, Dashoguz).",
+			"mainHeading": {
+				"part1": "WE WILL",
+				"part2": "HELP",
+				"part3": "YOU"
+			},
+			"services": [
+				"select programs and university",
+				"prepare and correctly submit all necessary document packages",
+				"organize equipment for remote entrance examinations",
+				"apply for a visa after receiving an educational invitation",
+				"adapt upon arrival"
+			]
+		},
+		"coreServices": {
+			"title": "Our Core Services",
+			"visa": {
+				"title": "Visa & Residency",
+				"desc": "Tracking all bureaucratic processes."
+			},
+			"university": {
+				"title": "University Admission",
+				"desc": "Department selection and application management."
+			},
+			"transport": {
+				"title": "Transport & Welcome",
+				"desc": "Fight tickets and airport transfer."
+			},
+			"translation": {
+				"title": "Translation & Documents",
+				"desc": "Sworn translation and equivalency procedures."
+			},
+			"support": {
+				"title": "Adaptation & Support",
+				"desc": "City orientation and 24/7 emergency line."
+			},
+			"workVisa": {
+				"title": "Work Visa",
+				"desc": "Assistance with obtaining work permits and visas."
+			},
+			"rvp": {
+				"title": "RVPO / RVP / VNZ",
+				"desc": "Residence permit assistance for students and foreign nationals in Russia."
+			}
+		},
+		"costOfLiving": {
+			"title": "Student's Life Guidance",
+			"subtitle": "Average monthly costs by city",
+			"rent": "Rent",
+			"food": "Food",
+			"transport": "Transport",
+			"total": "Total / Month",
+			"data": {
+				"russia": {
+					"name": "Russia",
+					"cities": [
+						{
+							"name": "Moscow",
+							"rent": "$400-600",
+							"food": "$200-300",
+							"transport": "$30",
+							"total": "$650-1000"
+						},
+						{
+							"name": "St. Petersburg",
+							"rent": "$300-500",
+							"food": "$180-250",
+							"transport": "$25",
+							"total": "$500-800"
+						},
+						{
+							"name": "Kazan",
+							"rent": "$200-350",
+							"food": "$150-200",
+							"transport": "$20",
+							"total": "$350-600"
+						}
+					]
+				},
+				"china": {
+					"name": "China",
+					"cities": [
+						{
+							"name": "Beijing",
+							"rent": "$500-800",
+							"food": "$250-350",
+							"transport": "$30",
+							"total": "$800-1200"
+						},
+						{
+							"name": "Shanghai",
+							"rent": "$600-900",
+							"food": "$300-400",
+							"transport": "$30",
+							"total": "$900-1400"
+						},
+						{
+							"name": "Guangzhou",
+							"rent": "$400-600",
+							"food": "$200-300",
+							"transport": "$25",
+							"total": "$650-950"
+						}
+					]
+				},
+				"turkey": {
+					"name": "Turkey",
+					"cities": [
+						{
+							"name": "Istanbul",
+							"rent": "$300-500",
+							"food": "$200-300",
+							"transport": "$40",
+							"total": "$550-850"
+						},
+						{
+							"name": "Ankara",
+							"rent": "$200-350",
+							"food": "$150-250",
+							"transport": "$25",
+							"total": "$400-650"
+						},
+						{
+							"name": "Izmir",
+							"rent": "$250-400",
+							"food": "$180-280",
+							"transport": "$30",
+							"total": "$500-750"
+						}
+					]
+				}
+			}
+		},
+		"destinations": {
+			"title": "Explore Destinations",
+			"description": "Explore our most popular study destinations and find the perfect city for your academic journey.",
+			"viewAll": "View all destinations",
+			"viewDetails": "View details",
+			"cities": [
+				{
+					"name": "Moscow",
+					"slug": "moscow",
+					"country": "Russia",
+					"countrySlug": "russia",
+					"description": "Russia's vibrant capital, where history and modern innovation collide. Home to world-class medical and engineering universities.",
+					"majors": "Medicine, Engineering, IT",
+					"tags": [
+						"MEDICINE",
+						"TECH",
+						"CAPITAL"
+					],
+					"img": "https://images.unsplash.com/photo-1513326738677-b964603b136d?q=80&w=1000&auto=format&fit=crop"
+				},
+				{
+					"name": "St. Petersburg",
+					"slug": "st-petersburg",
+					"country": "Russia",
+					"countrySlug": "russia",
+					"description": "The cultural heart of Russia. Known for its breathtaking architecture and prestigious arts and humanities programs.",
+					"majors": "Arts, Humanities, Architecture",
+					"tags": [
+						"CULTURE",
+						"ARTS",
+						"HISTORIC"
+					],
+					"img": "https://images.unsplash.com/photo-1556610961-2fecc5927173?q=80&w=1000&auto=format&fit=crop"
+				},
+				{
+					"name": "Beijing",
+					"slug": "beijing",
+					"country": "China",
+					"countrySlug": "china",
+					"description": "The center of China's political and educational world. A top destination for technology and business studies.",
+					"majors": "Technology, Business, Politics",
+					"tags": [
+						"TECH",
+						"BUSINESS",
+						"ANCIENT"
+					],
+					"img": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?q=80&w=1000&auto=format&fit=crop"
+				},
+				{
+					"name": "Shanghai",
+					"slug": "shanghai",
+					"country": "China",
+					"countrySlug": "china",
+					"description": "A global financial hub and future-looking metropolis. Perfect for students pursuing economics and international finance.",
+					"majors": "Finance, Economics, Trade",
+					"tags": [
+						"FINANCE",
+						"MODERN",
+						"HUB"
+					],
+					"img": "https://images.unsplash.com/photo-1538428494232-9c0d8a3ab403?q=80&w=1000&auto=format&fit=crop"
+				},
+				{
+					"name": "Istanbul",
+					"slug": "istanbul",
+					"country": "Turkey",
+					"countrySlug": "turkey",
+					"description": "A bridge between continents with a rich academic heritage. Renowned for its history, architecture, and engineering faculties.",
+					"majors": "History, Architecture, Engineering",
+					"tags": [
+						"BRIDGE",
+						"DIVERSITY",
+						"HISTORIC"
+					],
+					"img": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=1000&auto=format&fit=crop"
+				},
+				{
+					"name": "Ankara",
+					"slug": "ankara",
+					"country": "Turkey",
+					"countrySlug": "turkey",
+					"description": "Turkey's administrative center and home to top-tier state universities specializing in law, politics, and social sciences.",
+					"majors": "Politics, Law, Social Sciences",
+					"tags": [
+						"POLITICS",
+						"LAW",
+						"STATE"
+					],
+					"img": "https://images.unsplash.com/photo-1605259386010-d7003729af98?q=80&w=1000&auto=format&fit=crop"
+				}
+			]
+		},
+		"accommodationAssistant": {
+			"title": "Where Will You Stay?",
+			"dorms": {
+				"title": "Dormitories",
+				"price": "$70-$150",
+				"desc": "Most economical, socialization opportunity."
+			},
+			"shared": {
+				"title": "Shared Apartments",
+				"price": "$150-$250",
+				"desc": "More freedom, shared expenses."
+			},
+			"private": {
+				"title": "Private Apartment",
+				"price": "$300+",
+				"desc": "Full comfort and privacy."
+			}
+		},
+		"trust": {
+			"title": "Official Competencies and Documents"
+		},
+		"faq": {
+			"title": "Frequently Asked Questions",
+			"q1": {
+				"q": "1. What is the minimum passport validity required for admission?",
+				"a": "Most countries require the passport to be valid for at least 12–18 months at the time of application or entry."
+			},
+			"q2": {
+				"q": "2. Can I get a certificate to replace my passport?",
+				"a": "Yes, an Acceptance Letter from the university serves as a basis for passport replacement or extension."
+			},
+			"q3": {
+				"q": "3. What is the minimum age for admission? Are there age limits?",
+				"a": "Usually, admission starts from 17–18 years old. There is typically no upper age limit for paid education, but scholarships may have limits (25–30 years)."
+			},
+			"q4": {
+				"q": "4. What documents are needed for contract-based admission?",
+				"a": "Standard package: passport, photo, high school diploma/degree with translation. Sometimes a medical certificate and bank statement are required."
+			},
+			"q5": {
+				"q": "5. What documents are needed for scholarship admission?",
+				"a": "Passport, photo, translated educational documents, motivation letter, recommendation letters, certificates (IELTS/TOEFL/HSK), portfolio, and good academic standing."
+			},
+			"q6": {
+				"q": "6. What are the application deadlines?",
+				"a": "Depends on the country. Fall intake generally runs from February to July, Spring intake from September to November. Scholarship deadlines are often earlier (winter)."
+			},
+			"q7": {
+				"q": "7. How much money is needed to start?",
+				"a": "Initial expenses (visa, tickets, initial fees) usually range from $500 to $1500, depending on the country."
+			},
+			"q8": {
+				"q": "8. Is diploma nostrification required?",
+				"a": "Yes, many countries (Turkey, Germany, Czech Republic, etc.) require the recognition (nostrification) procedure for foreign educational documents."
+			},
+			"q9": {
+				"q": "9. Can I study in English?",
+				"a": "Yes, English-taught programs are available in most major universities worldwide, but the choice of majors might be limited compared to the national language."
+			},
+			"q10": {
+				"q": "10. What is the approximate cost of education and living?",
+				"a": "Education: from $1500 to $8000+ per year. Living: from $300 (China, Turkey) to $800+ (Canada, EU) per month."
+			},
+			"q11": {
+				"q": "11. Are there free programs or scholarships?",
+				"a": "Yes, there are government grants (CSC, Türkiye Bursları, Russian grants) and university scholarships covering from 25% to 100% of the cost."
+			},
+			"q12": {
+				"q": "12. How do I get a student visa and how long does it take?",
+				"a": "You will need a university invitation, passport, finances, and insurance. The processing time varies from 2 weeks to 3 months."
+			},
+			"q13": {
+				"q": "13. Can I work while studying?",
+				"a": "In most countries (Russia, Turkey, Germany, Canada), students are allowed to work up to 20 hours per week during studies and full-time during holidays."
+			}
+		}
+	},
+	"aboutPage": {
+		"hero": {
+			"title": "Reliable Companion in Global Education",
+			"subtitle": "Empowering students to achieve their dreams worldwide"
+		},
+		"mission": {
+			"title": "Mission",
+			"content": "Providing a future, not just a school."
+		},
+		"vision": {
+			"title": "Vision",
+			"content": "Setting standards in global consultancy."
+		},
+		"values": {
+			"title": "Values",
+			"content": "Trust, Transparency, Sustainability."
+		},
+		"timeline": {
+			"title": "Our Path",
+			"milestones": [
+				{
+					"year": "2019",
+					"title": "Establishment",
+					"description": "Founded in 2019"
+				},
+				{
+					"year": "2022",
+					"title": "Expansion and new branches",
+					"description": "Expansion and new branches in 2022"
+				},
+				{
+					"year": "2025",
+					"title": "1200+ successful applications",
+					"description": "1200+ successful applications in 2025"
+				}
+			]
+		},
+		"departments": {
+			"title": "Our Expertise Areas",
+			"list": [
+				{
+					"title": "International Cooperation",
+					"description": "Building partnerships with universities worldwide"
+				},
+				{
+					"title": "Sales & Consultancy",
+					"description": "Expert guidance for your educational journey"
+				},
+				{
+					"title": "Customer Success",
+					"description": "Ensuring sustainable support throughout your studies"
+				},
+				{
+					"title": "Media & Content",
+					"description": "Creating valuable resources for students"
+				},
+				{
+					"title": "Translation Services",
+					"description": "Professional document translation and certification"
+				},
+				{
+					"title": "RVPO / RVP / VNZh",
+					"description": "Temporary residence permits and permanent residency registration"
+				}
+			]
+		},
+		"licenses": {
+			"title": "Official Authorizations",
+			"subtitle": "Certified and trusted by international institutions"
+		},
+		"cta": {
+			"title": "Ready to start your journey?",
+			"button": "Contact Us"
+		}
+	},
+	"thanksPage": {
+		"title": "Thank You!",
+		"subtitle": "Your application has been received successfully",
+		"message": "Our team will contact you soon to discuss the next steps.",
+		"ctas": {
+			"instagram": {
+				"title": "Social Media",
+				"description": "Follow us on Instagram for updates and student stories",
+				"button": "Follow on Instagram"
+			},
+			"pdf": {
+				"title": "Downloadable Content",
+				"description": "Download our Russia Student Guide PDF",
+				"button": "Download PDF"
+			},
+			"whatsapp": {
+				"title": "Contact",
+				"description": "Don't want to wait? Message us on WhatsApp now",
+				"button": "Chat on WhatsApp"
+			},
+			"home": "Back to Home"
+		}
+	},
+	"offices": {
+		"badge": "OUR OFFICES",
+		"title": "We're Close to You",
+		"subtitle": "Offices in Turkmenistan, Uzbekistan and Russia for your convenience",
+		"turkmenabat": {
+			"city": "TURKMENABAT",
+			"address": "Office building outside the city park, 4th office on the left from the main entrance"
+		},
+		"mary": {
+			"city": "MARY",
+			"address": "Merv Bazaar, 40 Yyl Street, opposite Belent Shopping Center"
+		},
+		"dashoguz": {
+			"city": "DASHOGUZ",
+			"address": "A. Novai Street, building 17 (near Nygmat Bazaar)"
+		},
+		"ashgabat": {
+			"city": "ASHGABAT",
+			"address": "G. Kuliyeva St. (Bypass Road), Hil Gurluşyk building (Regus Business Center)"
+		},
+		"balkanabat": {
+			"city": "BALKANABAT",
+			"address": "8 March Street, building 22, office space 2"
+		},
+		"tashkent": {
+			"city": "TASHKENT",
+			"address": "Mirzo-Ulugbek district, Sayram St., building 1B, office (1st floor), first turn right (Korzinka Tekhnomart)"
+		},
+		"kazan": {
+			"city": "KAZAN",
+			"address": "Pushkina St., 52, office 306/4 (3rd floor)"
+		},
+		"labels": {
+			"address": "Address",
+			"phone": "Phone",
+			"messenger": "TG / WHATSAPP / IMO",
+			"workingHours": "Working Hours",
+			"weekdays": "Mon-Fri",
+			"saturday": "Sat",
+			"callOffice": "Call Office",
+			"visitWebsite": "Visit Website"
+		},
+		"countries": {
+			"turkmenistan": "Turkmenistan",
+			"uzbekistan": "Uzbekistan",
+			"russia": "Russia"
+		},
+		"websites": {
+			"international": "For users abroad",
+			"turkmenistan": "For users in Turkmenistan"
+		}
+	},
+	"latestJournal": {
+		"label": "News",
+		"title_part1": "Explore our",
+		"title_part2": "Latest News",
+		"viewAll": "View all blogs",
+		"noImage": "No Image",
+		"admin": "Admin",
+		"readMore": "Read More"
+	},
+	"featureTabs": {
+		"title": "Comprehensive Student Support",
+		"subtitle": "Detailed assistance at every step of your study abroad journey.",
+		"features": {
+			"admissions": {
+				"title": "University Admissions",
+				"description": "Guiding through top-tier university applications with personalized strategy and detailed roadmap planning."
+			},
+			"visa": {
+				"title": "Visa Assistance",
+				"description": "Hassle-free student visa processing with high success rates and comprehensive document verification."
+			},
+			"accommodation": {
+				"title": "Accommodation",
+				"description": "Finding safe, affordable, and comfortable housing options near your campus."
+			},
+			"career": {
+				"title": "Career Guidance",
+				"description": "Post-graduation planning, resume building, and interview preparation for a successful career launch."
+			}
+		}
+	},
+	"howItWorks": {
+		"badge": "EASY ONBOARDING",
+		"title": "How it works?",
+		"getStarted": "Get Started",
+		"currentStep": "Current Step",
+		"phase": "Phase",
+		"steps": {
+			"consultation": {
+				"title": "Free Consultation",
+				"description": "We analyze your academic profile and career goals to recommend the best universities and programs tailored to your aspirations."
+			},
+			"preparation": {
+				"title": "Preparation & Visa",
+				"description": "Our experts handle the entire application process, document verification, and correct submission of documents for the visa."
+			},
+			"departure": {
+				"title": "Departure & Support",
+				"description": "From flight bookings to finding accommodation, we support you until you are settled in your new student life."
+			}
+		}
+	},
+	"processWorkflow": {
+		"badge": "Our Process",
+		"title": "Our 5-step workflow",
+		"description": "Our Innomax Efficient Workflow in 5 Steps ensures streamlined IT solutions. We start by understanding your needs, then plan the project, design intuitive interfaces, build robust systems, and thoroughly test.",
+		"cta": "Learn more about us",
+		"steps": {
+			"s1": {
+				"number": "01",
+				"title": "Free Consultation",
+				"desc": "We study goals, opportunities and wishes, select the optimal direction and university."
+			},
+			"s2": {
+				"number": "02",
+				"title": "Selection of solutions and strategy",
+				"desc": "We form an individual action plan and offer the best options."
+			},
+			"s3": {
+				"number": "03",
+				"title": "Preparation and registration",
+				"desc": "We accompany at every stage: documents, deadlines, requirements, control of details."
+			},
+			"s4": {
+				"number": "04",
+				"title": "Implementation and support",
+				"desc": "We organize the process, stay in touch and promptly solve all issues."
+			},
+			"s5": {
+				"number": "05",
+				"title": "Result and further support",
+				"desc": "We bring to the final goal and help at the next stage of development."
+			}
+		}
+	},
+	"cookies": {
+		"title": "We value your privacy",
+		"description": "We use cookies to enhance your browsing experience and analyze our traffic. By clicking \"Accept\", you consent to our use of cookies.",
+		"accept": "Accept",
+		"decline": "Decline",
+		"policy": "Cookie Policy"
+	},
+	"contactForm": {
+		"badge": "Get in Touch",
+		"title": "Contact Us",
+		"subtitle": "Fill out the form below, and we'll get back to you shortly.",
+		"success": "Message sent successfully!",
+		"submit": "Send Message",
+		"sending": "Sending...",
+		"privacyModal": "We respect your privacy. Your information is safe with us.",
+		"telegramPrivacyTitle": "Telegram Privacy",
+		"fields": {
+			"name": "Full Name",
+			"email": "Email Address",
+			"phone": "Phone Number",
+			"telegramUsername": "Telegram Username",
+			"contactPreference": "Contact Preference"
+		},
+		"placeholders": {
+			"name": "Full Name",
+			"email": "Email Address",
+			"phone": "Phone Number",
+			"telegram": "@username or phone"
+		},
+		"preferences": {
+			"whatsapp": "WhatsApp",
+			"telegram": "Telegram",
+			"call": "Call",
+			"email": "Email"
+		},
+		"countryLabels": {
+			"russia": "RUSSIA",
+			"turkmenistan": "TM",
+			"other": "OTHER"
+		}
+	},
+	"legal": {
+		"privacyPolicy": {
+			"title": "Privacy Policy",
+			"lastUpdated": "Last updated: January 2026",
+			"content": "Your privacy is important to us. It is Student's Life Agency's policy to respect your privacy regarding any information we may collect from you across our website, https://studs-life.com, and other sites we own and operate."
+		},
+		"termsOfUse": {
+			"title": "Terms of Use",
+			"lastUpdated": "Last updated: January 2026",
+			"content": "By accessing the website at https://studs-life.com, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws."
+		},
+		"cookiePolicy": {
+			"title": "Cookie Policy",
+			"lastUpdated": "Last updated: January 2026",
+			"content": "This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website."
+		}
+	},
+	"partnershipPage": {
+		"hero": {
+			"badge": "FOR UNIVERSITIES & PARTNERS",
+			"title": "Partner With Student's Life",
+			"subtitle": "We connect talented students from Turkmenistan, Uzbekistan and CIS countries with leading universities worldwide. Join our network of 50+ partner institutions across 8 countries.",
+			"cta": "Become a Partner"
+		},
+		"contact": {
+			"title": "Partnership Contact",
+			"role": "B2B Partnership Manager",
+			"department": "Students Life B2B Department — partnerships with universities, institutions and agencies",
+			"phone": "+99371250041",
+			"email": "partners@stud-life.com",
+			"location": "Turkmenistan, Turkmenabat, city park outdoor office building, 4th office",
+			"startDate": "Since June 2025"
+		},
+		"b2bModels": {
+			"title": "B2B Partnership Models",
+			"subtitle": "Flexible collaboration options for institutions and agencies",
+			"items": [
+				{
+					"title": "B2B Agency Partnership",
+					"description": "Joint work with institutions and agencies for student referral and recruitment.",
+					"icon": "building"
+				},
+				{
+					"title": "PR & Media Services",
+					"description": "PR and content production on behalf of Student's Life for partner visibility.",
+					"icon": "megaphone"
+				},
+				{
+					"title": "Commission / Referral Model",
+					"description": "Fee per referred student — transparent and scalable commission structure.",
+					"icon": "coins"
+				},
+				{
+					"title": "B2C Support",
+					"description": "Institutional support for services targeting individual students.",
+					"icon": "users"
+				},
+				{
+					"title": "Green Card & Immigration Consulting",
+					"description": "Support for long-term settlement and immigration processes.",
+					"icon": "globe"
+				},
+				{
+					"title": "24/7 Support",
+					"description": "Continuous communication with the Student's Life team around the clock.",
+					"icon": "headphones"
+				}
+			]
+		},
+		"benefits": {
+			"title": "Why Partner With Us?",
+			"subtitle": "We provide end-to-end student recruitment and support services",
+			"items": [
+				{
+					"title": "Student Recruitment",
+					"description": "Access a pipeline of motivated students from Turkmenistan, Uzbekistan and CIS countries actively seeking international education.",
+					"icon": "users"
+				},
+				{
+					"title": "Marketing & Visibility",
+					"description": "Boost your university's brand presence in Central Asia through our established network and marketing channels.",
+					"icon": "megaphone"
+				},
+				{
+					"title": "Full Student Support",
+					"description": "We handle visa processing, accommodation, airport transfers, and adaptation — so students arrive ready to learn.",
+					"icon": "shield"
+				},
+				{
+					"title": "Dedicated Partnership Manager",
+					"description": "Each partner university gets a dedicated manager for seamless communication and student coordination.",
+					"icon": "handshake"
+				}
+			]
+		},
+		"geography": {
+			"title": "Our Geographic Reach",
+			"subtitle": "We work with universities across 8 countries and 30+ cities",
+			"countries": {
+				"turkey": {
+					"name": "Turkey",
+					"flag": "🇹🇷",
+					"cities": {
+						"Istanbul": [
+							"Istanbul University",
+							"Bogazici University",
+							"Istanbul Technical University (ITU)",
+							"Koc University",
+							"Medipol University"
+						],
+						"Ankara": [
+							"METU",
+							"Ankara University",
+							"Hacettepe University",
+							"Bilkent University",
+							"TOBB University"
+						],
+						"Izmir": [
+							"Ege University",
+							"Dokuz Eylul University",
+							"IZTECH",
+							"Yasar University",
+							"Izmir University of Economics (IEU)"
+						],
+						"Bursa": [
+							"Uludag University",
+							"Bursa Technical University (BTU)",
+							"Mudanya University",
+							"Bursa Orhangazi University"
+						],
+						"Manisa": [
+							"Manisa Celal Bayar University (MCBU)"
+						],
+						"Konya": [
+							"Selcuk University",
+							"Necmettin Erbakan University",
+							"KTO Karatay University",
+							"Konya Technical University"
+						]
+					},
+					"programs": [
+						"Erasmus",
+						"YÖK Approved"
+					]
+				},
+				"germany": {
+					"name": "Germany",
+					"flag": "🇩🇪",
+					"cities": {
+						"Multiple Cities": [
+							"TU Munich",
+							"RWTH Aachen",
+							"University of Stuttgart",
+							"Jacobs University Bremen",
+							"Hochschule Bonn-Rhein-Sieg"
+						]
+					},
+					"programs": [
+						"2000+ programs",
+						"IT-focused"
+					]
+				},
+				"china": {
+					"name": "China",
+					"flag": "🇨🇳",
+					"cities": {
+						"Xi'an": [
+							"Xi'an Jiaotong University (XJTU)",
+							"Xi'an International Studies University"
+						],
+						"Other Cities": [
+							"Zhejiang University",
+							"Nanjing University",
+							"Beijing Normal University",
+							"Guangdong University of Foreign Studies (GDUFS)",
+							"South China University of Technology (SCUT)",
+							"Sun Yat-sen University (SYSU)"
+						]
+					},
+					"programs": [
+						"CSC Scholarship",
+						"English-taught"
+					]
+				},
+				"cyprus": {
+					"name": "Cyprus",
+					"flag": "🇨🇾",
+					"cities": {
+						"Nicosia": [
+							"University of Nicosia",
+							"Near East University (NEU)",
+							"Cyprus International University (CIU)"
+						]
+					},
+					"programs": [
+						"IT",
+						"Medicine",
+						"Business"
+					]
+				},
+				"bulgaria": {
+					"name": "Bulgaria",
+					"flag": "🇧🇬",
+					"cities": {
+						"Varna": [
+							"Varna University of Management (VUM)",
+							"Medical University of Varna",
+							"Technical University of Varna",
+							"University of Economics Varna"
+						]
+					},
+					"programs": [
+						"Erasmus member"
+					]
+				},
+				"canada": {
+					"name": "Canada",
+					"flag": "🇨🇦",
+					"cities": {
+						"Multiple Cities": [
+							"25 universities — admission support via Student's Life"
+						]
+					},
+					"programs": [
+						"WES/ECA equivalency",
+						"Post-Graduation Work Permit (PGWP)"
+					]
+				},
+				"belarus": {
+					"name": "Belarus",
+					"flag": "🇧🇾",
+					"cities": {
+						"Grodno": [
+							"Yanka Kupala State University of Grodno"
+						]
+					},
+					"programs": [
+						"Affordable tuition"
+					]
+				},
+				"russia": {
+					"name": "Russia",
+					"flag": "🇷🇺",
+					"cities": {
+						"Moscow": [
+							"Moscow State University (MSU)",
+							"MGIMO University",
+							"Peoples' Friendship University (RUDN)"
+						],
+						"St. Petersburg": [
+							"Saint Petersburg State University (SPbSU)",
+							"ITMO University",
+							"Peter the Great Polytechnic University (SPbPU)"
+						],
+						"Kazan": [
+							"Kazan Federal University (KFU)",
+							"Kazan National Research Technological University"
+						],
+						"Ufa": [
+							"Bashkir State Medical University",
+							"Ufa University of Science and Technology"
+						],
+						"Irkutsk": [
+							"Irkutsk State University",
+							"Irkutsk National Research Technical University"
+						],
+						"Saransk": [
+							"Mordovia State University"
+						],
+						"Arkhangelsk": [
+							"Northern (Arctic) Federal University (NArFU)"
+						],
+						"Kaliningrad": [
+							"Immanuel Kant Baltic Federal University"
+						],
+						"Sevastopol": [
+							"Sevastopol State University"
+						],
+						"Innopolis": [
+							"Innopolis University"
+						],
+						"Novosibirsk": [
+							"Novosibirsk State University (NSU)",
+							"Novosibirsk State Technical University (NSTU)"
+						],
+						"Oryol": [
+							"Oryol State University"
+						],
+						"Tula": [
+							"Tula State University"
+						]
+					},
+					"programs": [
+						"State-funded",
+						"Medical & Engineering"
+					]
+				}
+			}
+		},
+		"stats": {
+			"students": "1200+",
+			"studentsLabel": "Students Placed",
+			"universities": "50+",
+			"universitiesLabel": "Partner Universities",
+			"countries": "8",
+			"countriesLabel": "Countries",
+			"cities": "30+",
+			"citiesLabel": "Cities",
+			"years": "5+",
+			"yearsLabel": "Years of Experience"
+		},
+		"cta": {
+			"title": "Ready to Partner With Us?",
+			"subtitle": "Join our growing network of partner universities and gain access to talented international students.",
+			"button": "Contact Us",
+			"email": "partners@stud-life.com",
+			"emailLabel": "Or email us directly"
+		}
+	},
+	"reviews": {
+		"badge": "REVIEWS",
+		"title": "What Our Students Say",
+		"subtitle": "Real reviews from students we've helped",
+		"formTitle": "Leave a Review",
+		"name": "Full Name",
+		"city": "Your City",
+		"service": "Service Used",
+		"rating": "Rating",
+		"content": "Your Review",
+		"submit": "Submit Review",
+		"success": "Thank you! Your review will be published after moderation.",
+		"error": "Something went wrong. Please try again.",
+		"empty": "No reviews yet. Be the first!",
+		"services": {
+			"university": "University Admission",
+			"school": "School",
+			"transfer": "Transfer",
+			"visa": "Visa",
+			"umrah": "Umrah",
+			"ticket": "Ticket",
+			"other": "Other"
+		},
+		"viewAll": "View all reviews →",
+		"reviewCount": "reviews",
+		"backHome": "Back to Home"
+	}
+}

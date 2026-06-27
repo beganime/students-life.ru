@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "university_lists",
+  "info": {
+    "singularName": "university-list",
+    "pluralName": "university-lists",
+    "displayName": "University List",
+    "description": "Recognized university lists uploaded as DOCX files"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "academicYear": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "sourceDocument": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "entries": {
+      "type": "json"
+    },
+    "totalCountries": {
+      "type": "integer",
+      "default": 0
+    },
+    "totalUniversities": {
+      "type": "integer",
+      "default": 0
+    },
+    "featured": {
+      "type": "boolean",
+      "default": true
+    },
+    "autoParse": {
+      "type": "boolean",
+      "default": true
+    },
+    "parseStatus": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "parsed",
+        "manual",
+        "error"
+      ],
+      "default": "pending"
+    },
+    "parseMessage": {
+      "type": "text"
+    },
+    "documentSignature": {
+      "type": "string"
+    }
+  }
+}

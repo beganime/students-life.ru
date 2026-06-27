@@ -1,0 +1,23 @@
+
+> studs-life-test@0.1.0 build
+> next build
+
+   ▲ Next.js 16.0.7 (Turbopack)
+
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 3.8s
+   Running TypeScript ...
+Failed to compile.
+
+./src/app/[lang]/page.tsx:18:15
+Type error: Type 'string' is not assignable to type '"en" | "ru"'.
+
+[0m [90m 16 |[39m   [36mreturn[39m (
+ [90m 17 |[39m     [33m<[39m[33mmain[39m className[33m=[39m[32m"min-h-screen bg-navy overflow-x-hidden"[39m[33m>[39m
+[31m[1m>[22m[39m[90m 18 |[39m       [33m<[39m[33mNavbar[39m lang[33m=[39m{lang} dict[33m=[39m{dict[33m.[39mnav} [33m/[39m[33m>[39m
+ [90m    |[39m               [31m[1m^[22m[39m
+ [90m 19 |[39m       [33m<[39m[33mHero[39m lang[33m=[39m{lang} dict[33m=[39m{dict[33m.[39mhero} [33m/[39m[33m>[39m
+ [90m 20 |[39m       [33m<[39m[33mServices[39m lang[33m=[39m{lang} dict[33m=[39m{dict[33m.[39mservices} [33m/[39m[33m>[39m
+ [90m 21 |[39m       [33m<[39m[33mCountries[39m lang[33m=[39m{lang} dict[33m=[39m{dict[33m.[39mcountries} [33m/[39m[33m>[39m[0m
+Next.js build worker exited with code: 1 and signal: null

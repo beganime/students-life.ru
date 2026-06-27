@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  # Backend (Strapi)
+  cms:
+    build:
+      context: ./studs-life-cms
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "1337:1337"
+    volumes:
+      - ./studs-life-cms/.tmp:/app/.tmp
+      - ./studs-life-cms/public/uploads:/app/public/uploads
+    env_file:
+      - ./studs-life-cms/.env
+    networks:
+      - app-network
+
+  # Frontend (Next.js)
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_STRAPI_URL=${NEXT_PUBLIC_STRAPI_URL:-https://admin-studs-life.defyzer.com}
+        - NEXT_PUBLIC_GOOGLE_SHEETS_URL=${NEXT_PUBLIC_GOOGLE_SHEETS_URL}
+        - STRAPI_API_TOKEN=${STRAPI_API_TOKEN}
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_STRAPI_URL=${NEXT_PUBLIC_STRAPI_URL:-https://admin-studs-life.defyzer.com}
+      - CRM_API_KEY=${CRM_API_KEY}
+    depends_on:
+      - cms
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

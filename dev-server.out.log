@@ -1,0 +1,88 @@
+
+> studs-life-test@0.1.0 dev
+> next dev -p 3000
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.18.0.1:3000
+- Experiments (use with caution):
+  · optimizePackageImports
+
+✓ Starting...
+✓ Ready in 4.3s
+○ Compiling /[lang] ...
+ HEAD /ru 200 in 29.0s (compile: 23.3s, proxy.ts: 344ms, generate-params: 1873ms, render: 5.4s)
+ GET /ru 200 in 3.4s (compile: 86ms, proxy.ts: 60ms, generate-params: 25ms, render: 3.3s)
+○ Compiling /[lang]/[country]/[city] ...
+ GET /ru/fonts/octin-stencil.woff 500 in 13.1s (compile: 11.4s, proxy.ts: 981ms, render: 630ms)
+ GET /ru/fonts/octin-stencil.woff 500 in 1247ms (compile: 107ms, proxy.ts: 15ms, render: 1126ms)
+ GET /ru 200 in 2.6s (compile: 36ms, proxy.ts: 12ms, generate-params: 17ms, render: 2.5s)
+ GET /ru/fonts/octin-stencil.woff 500 in 924ms (compile: 82ms, proxy.ts: 30ms, render: 813ms)
+ GET /ru 200 in 2.6s (compile: 45ms, proxy.ts: 12ms, generate-params: 19ms, render: 2.6s)
+ GET /ru/fonts/octin-stencil.woff 500 in 939ms (compile: 77ms, proxy.ts: 22ms, render: 840ms)
+ GET /ru 200 in 2.2s (compile: 34ms, proxy.ts: 11ms, generate-params: 15ms, render: 2.1s)
+ GET /ru/fonts/octin-stencil.woff 500 in 1037ms (compile: 80ms, proxy.ts: 17ms, render: 940ms)
+ GET /ru 200 in 2.7s (compile: 45ms, proxy.ts: 10ms, generate-params: 22ms, render: 2.6s)
+✓ Compiled in 3.5s
+ GET /ru/fonts/octin-stencil.woff 500 in 1068ms (compile: 109ms, proxy.ts: 18ms, render: 941ms)
+ GET /ru 200 in 4.1s (compile: 566ms, proxy.ts: 14ms, generate-params: 16ms, render: 3.5s)
+ GET /ru/fonts/octin-stencil.woff 500 in 782ms (compile: 69ms, proxy.ts: 11ms, render: 702ms)
+ GET /ru 200 in 1961ms (compile: 39ms, proxy.ts: 7ms, generate-params: 18ms, render: 1915ms)
+✓ Compiled in 4.4s
+✓ Compiled in 3s
+ GET /ru 200 in 8.8s (compile: 2.3s, proxy.ts: 364ms, generate-params: 54ms, render: 6.1s)
+ GET /ru/fonts/octin-stencil.woff 500 in 795ms (compile: 98ms, proxy.ts: 13ms, render: 684ms)
+ GET /ru/fonts/octin-stencil.woff 500 in 905ms (compile: 64ms, proxy.ts: 10ms, render: 831ms)
+ GET /ru 200 in 2.0s (compile: 33ms, proxy.ts: 7ms, generate-params: 15ms, render: 1985ms)
+✓ Compiled in 3.9s
+✓ Compiled in 4.2s
+ GET /ru/fonts/octin-stencil.woff 500 in 2.1s (compile: 213ms, proxy.ts: 19ms, render: 1879ms)
+ GET /ru 200 in 6.8s (compile: 980ms, proxy.ts: 44ms, generate-params: 45ms, render: 5.8s)
+ GET /ru/fonts/octin-stencil.woff 500 in 1575ms (compile: 111ms, proxy.ts: 22ms, render: 1442ms)
+ GET /ru 200 in 3.4s (compile: 166ms, proxy.ts: 17ms, generate-params: 19ms, render: 3.2s)
+✓ Compiled in 5.6s
+✓ Compiled in 8s
+ GET /ru/fonts/octin-stencil.woff 500 in 3.7s (compile: 1961ms, proxy.ts: 83ms, render: 1669ms)
+ GET /ru 200 in 13.9s (compile: 2.3s, proxy.ts: 505ms, generate-params: 93ms, render: 11.1s)
+ GET /ru/fonts/octin-stencil.woff 500 in 2.5s (compile: 215ms, proxy.ts: 21ms, render: 2.2s)
+ GET /ru 200 in 5.1s (compile: 88ms, proxy.ts: 34ms, generate-params: 25ms, render: 5.0s)
+ GET /ru/fonts/octin-stencil.woff 500 in 4.1s (compile: 201ms, proxy.ts: 41ms, render: 3.9s)
+ GET /ru 200 in 12.0s (compile: 1736ms, proxy.ts: 769ms, generate-params: 123ms, render: 9.5s)
+ GET /ru/fonts/octin-stencil.woff 500 in 823ms (compile: 82ms, proxy.ts: 15ms, render: 726ms)
+ GET /ru 200 in 2.2s (compile: 80ms, proxy.ts: 11ms, generate-params: 17ms, render: 2.2s)
+✓ Compiled in 6.3s
+ GET /ru/fonts/octin-stencil.woff 500 in 1429ms (compile: 80ms, proxy.ts: 6ms, render: 1344ms)
+ GET /ru 200 in 9.4s (compile: 1705ms, proxy.ts: 221ms, generate-params: 71ms, render: 7.5s)
+ GET /ru/fonts/octin-stencil.woff 500 in 2.1s (compile: 150ms, proxy.ts: 22ms, render: 1923ms)
+ GET /ru 200 in 4.6s (compile: 279ms, proxy.ts: 37ms, generate-params: 40ms, render: 4.3s)
+✓ Compiled in 5.4s
+ GET /ru/fonts/octin-stencil.woff 500 in 1110ms (compile: 106ms, proxy.ts: 29ms, render: 975ms)
+ GET /ru 200 in 11.4s (compile: 1055ms, proxy.ts: 81ms, generate-params: 33ms, render: 10.3s)
+ GET /ru/fonts/octin-stencil.woff 500 in 1887ms (compile: 132ms, proxy.ts: 47ms, render: 1708ms)
+ GET /ru 200 in 6.8s (compile: 1210ms, proxy.ts: 32ms, generate-params: 23ms, render: 5.6s)
+✓ Finished filesystem cache database compaction in 21.5s
+✓ Compiled in 7.1s
+✓ Compiled in 5s
+ GET /ru/fonts/octin-stencil.woff 500 in 1129ms (compile: 191ms, proxy.ts: 25ms, render: 913ms)
+ GET /ru 200 in 6.6s (compile: 1140ms, proxy.ts: 35ms, generate-params: 42ms, render: 5.4s)
+ GET /ru/fonts/octin-stencil.woff 500 in 699ms (compile: 84ms, proxy.ts: 19ms, render: 596ms)
+ GET /ru 200 in 3.0s (compile: 47ms, proxy.ts: 10ms, generate-params: 17ms, render: 2.9s)
+✓ Compiled in 4.7s
+✓ Compiled in 3.4s
+ GET /ru 200 in 9.0s (compile: 4.1s, proxy.ts: 351ms, generate-params: 1924ms, render: 4.5s)
+ GET /ru/fonts/octin-stencil.woff 500 in 793ms (compile: 168ms, proxy.ts: 14ms, render: 610ms)
+ GET /ru/fonts/octin-stencil.woff 500 in 1747ms (compile: 82ms, proxy.ts: 15ms, render: 1650ms)
+ GET /ru 200 in 3.2s (compile: 37ms, proxy.ts: 8ms, generate-params: 16ms, render: 3.2s)
+✓ Compiled in 4.5s
+✓ Compiled in 3.6s
+✓ Compiled in 3.5s
+ GET /ru 200 in 6.8s (compile: 1275ms, proxy.ts: 134ms, generate-params: 78ms, render: 5.4s)
+ GET /ru/fonts/octin-stencil.woff 500 in 1067ms (compile: 130ms, proxy.ts: 17ms, render: 921ms)
+ GET /ru/fonts/octin-stencil.woff 500 in 791ms (compile: 67ms, proxy.ts: 16ms, render: 708ms)
+ GET /ru 200 in 2.1s (compile: 39ms, proxy.ts: 11ms, generate-params: 14ms, render: 2.1s)
+✓ Compiled in 6.7s
+ GET /ru/fonts/octin-stencil.woff 500 in 1185ms (compile: 102ms, proxy.ts: 16ms, render: 1067ms)
+ GET /ru 200 in 8.3s (compile: 1675ms, proxy.ts: 197ms, generate-params: 76ms, render: 6.5s)
+ GET /ru/fonts/octin-stencil.woff 500 in 756ms (compile: 79ms, proxy.ts: 15ms, render: 662ms)
+ GET /ru 200 in 2.7s (compile: 68ms, proxy.ts: 34ms, generate-params: 37ms, render: 2.6s)
+✓ Finished filesystem cache database compaction in 11.4s

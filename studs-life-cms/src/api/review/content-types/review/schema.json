@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "Review",
+    "description": "User-submitted reviews pending moderation"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "city": { "type": "string" },
+    "service": {
+      "type": "enumeration",
+      "enum": ["university", "school", "transfer", "visa", "umrah", "ticket", "other"],
+      "default": "other"
+    },
+    "rating": { "type": "integer", "min": 1, "max": 5, "required": true },
+    "content": { "type": "text", "required": true }
+  }
+}

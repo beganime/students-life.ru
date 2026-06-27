@@ -1,0 +1,1 @@
+src/middleware.ts(9,11): error TS4104: The type 'readonly ["en", "ru", "tk", "oz"]' is 'readonly' and cannot be assigned to the mutable type 'string[]'.
