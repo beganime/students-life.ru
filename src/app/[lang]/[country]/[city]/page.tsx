@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getCity, getCities, getStrapiImageUrl } from '@/lib/strapi';
+import { getBestStrapiImage, getCity, getCities, getStrapiImageUrl, normalizeStrapiImages } from '@/lib/strapi';
 import { generateSEOMetadata } from '@/lib/seo';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -165,7 +165,8 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
     const description = city.metaDescription || (plainIntro
       ? plainIntro.substring(0, 160)
       : `Study in ${city.title}, ${city.country?.name}. Comprehensive guide for international students.`);
-    const image = city.images && city.images.length > 0 ? getStrapiImageUrl(city.images[0].url) : undefined;
+    const imageItem = getBestStrapiImage(city.images) || getBestStrapiImage(city.country?.images);
+    const image = imageItem?.url ? getStrapiImageUrl(imageItem.url) : undefined;
 
     return generateSEOMetadata({
       lang,
@@ -208,8 +209,13 @@ export default async function CityPage({ params }: CityPageProps) {
   } = city;
 
   const copy = getCopy(lang);
-  const heroImage = cityImages?.[0];
-  const heroImageUrl = heroImage ? getStrapiImageUrl(heroImage.url) : '';
+  const cityImageList = normalizeStrapiImages(cityImages);
+  const countryImageList = normalizeStrapiImages(cityCountry?.images);
+  const heroImage = cityImageList[0] || countryImageList[0] || null;
+  const heroImageUrl = heroImage?.url ? getStrapiImageUrl(heroImage.url) : '';
+  const galleryImages = [...cityImageList, ...countryImageList]
+    .filter((image, index, all) => image.url && image.url !== heroImage?.url && all.findIndex((item) => item.url === image.url) === index)
+    .slice(0, 6);
   const plainIntro = toPlainText(intro);
   const heroDescription = plainIntro || copy.fallbackDescription;
   const climateRows = getClimateRows(climateTable);
@@ -286,20 +292,20 @@ export default async function CityPage({ params }: CityPageProps) {
       <JsonLd<Article> data={articleSchema} />
       <JsonLd<BreadcrumbList> data={breadcrumbSchema} />
 
-      <section className="relative overflow-hidden bg-navy pt-28 md:pt-36">
+      <section className="relative min-h-[620px] overflow-hidden bg-navy pt-24 md:min-h-[640px] md:pt-36">
         {heroImage ? (
           <Image
             src={heroImageUrl}
             alt={heroImage.alternativeText || title}
             fill
-            className="object-cover"
+            className="object-cover object-center md:object-[center_45%]"
             priority
             sizes="100vw"
           />
         ) : (
           <div className="absolute inset-0 bg-[linear-gradient(135deg,#06182E_0%,#132a45_52%,#273344_100%)]" />
         )}
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(6,24,46,0.95),rgba(6,24,46,0.78),rgba(6,24,46,0.46))]" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(6,24,46,0.88),rgba(6,24,46,0.72)_45%,rgba(6,24,46,0.9)),linear-gradient(90deg,rgba(6,24,46,0.9),rgba(6,24,46,0.58),rgba(6,24,46,0.34))]" />
 
         <div className="relative mx-auto max-w-7xl px-4 py-14 md:px-8 md:py-24">
           <Link
@@ -427,7 +433,7 @@ export default async function CityPage({ params }: CityPageProps) {
               </div>
             )}
 
-            {cityImages && cityImages.length > 1 && (
+            {galleryImages.length > 0 && (
               <section id="gallery" className="mt-12 border-t border-gray-200 pt-10">
                 <div className="mb-5 flex items-start gap-4">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-crimson/10 text-crimson">
@@ -440,8 +446,8 @@ export default async function CityPage({ params }: CityPageProps) {
                 </div>
 
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                  {cityImages.slice(1).map((image) => (
-                    <div key={image.id} className="relative aspect-[4/3] overflow-hidden rounded-lg border border-gray-200 bg-gray-200 shadow-sm">
+                  {galleryImages.map((image) => (
+                    <div key={image.id ?? image.url} className="relative aspect-[4/3] overflow-hidden rounded-lg border border-gray-200 bg-gray-200 shadow-sm">
                       <Image
                         src={getStrapiImageUrl(image.url)}
                         alt={image.alternativeText || title}
@@ -475,7 +481,7 @@ export default async function CityPage({ params }: CityPageProps) {
                       </a>
                     );
                   })}
-                  {cityImages && cityImages.length > 1 && (
+                  {galleryImages.length > 0 && (
                     <a
                       href="#gallery"
                       className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-bold text-gray-700 transition-colors hover:bg-gray-50 hover:text-crimson"

@@ -32,14 +32,7 @@ export interface Country {
     updatedAt: string;
     publishedAt: string;
     cities?: City[];
-    images?: Array<{
-        id: number;
-        url: string;
-        alternativeText?: string;
-        caption?: string;
-        width: number;
-        height: number;
-    }>;
+    images?: StrapiImage[] | any;
 }
 export interface City {
     id: number;
@@ -61,15 +54,34 @@ export interface City {
     updatedAt: string;
     publishedAt: string;
     country: Country;
-    images?: Array<{
-        id: number;
-        url: string;
-        alternativeText?: string;
-        caption?: string;
-        width: number;
-        height: number;
-    }>;
+    images?: StrapiImage[] | any;
 }
+export interface StrapiImage {
+    id?: number;
+    url: string;
+    alternativeText?: string;
+    caption?: string;
+    width?: number;
+    height?: number;
+    formats?: Record<string, { url?: string; width?: number; height?: number }>;
+    attributes?: StrapiImage;
+}
+
+export function normalizeStrapiImages(input: any): StrapiImage[] {
+    if (!input) return [];
+    if (Array.isArray(input)) return input.flatMap(normalizeStrapiImages);
+    if (Array.isArray(input.data)) return normalizeStrapiImages(input.data);
+    if (input.data) return normalizeStrapiImages(input.data);
+
+    const image = input.attributes ? { id: input.id, ...input.attributes } : input;
+    if (image?.url) return [image as StrapiImage];
+    return [];
+}
+
+export function getBestStrapiImage(input: any): StrapiImage | null {
+    return normalizeStrapiImages(input)[0] || null;
+}
+
 interface StrapiResponse<T> {
     data: T;
     meta: {
@@ -128,7 +140,9 @@ export async function getCities(countrySlug?: string, locale: string = 'en'): Pr
     const query = qs.stringify({
         locale: toStrapiLocale(locale),
         populate: {
-            country: true,
+            country: {
+                populate: { images: true },
+            },
             images: true,
         },
         ...(countrySlug && {
@@ -163,7 +177,9 @@ export async function getCity(
             },
         },
         populate: {
-            country: true,
+            country: {
+                populate: { images: true },
+            },
             images: true,
         },
     });
@@ -182,7 +198,9 @@ export async function getCityBySlug(
             },
         },
         populate: {
-            country: true,
+            country: {
+                populate: { images: true },
+            },
             images: true,
         },
     });
@@ -198,7 +216,9 @@ export async function getFeaturedCities(locale: string = 'en'): Promise<City[]> 
             },
         },
         populate: {
-            country: true,
+            country: {
+                populate: { images: true },
+            },
             images: true,
         },
         sort: ['name:asc'],

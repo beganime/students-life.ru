@@ -201,21 +201,21 @@ export default function Countries({ lang, dict, countries = [] }: CountriesProps
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
                 onClick={() => handleCardClick(country.key)}
-                className="bg-white rounded-[2.5rem] overflow-hidden flex flex-col md:flex-row w-[350px] md:w-[900px] h-[480px] md:h-[420px] border border-gray-100 shadow-xl hover:shadow-2xl transition-all duration-500 group cursor-pointer"
+                className="flex h-[260px] w-[350px] flex-row overflow-hidden rounded-[1.75rem] border border-gray-100 bg-white shadow-xl transition-all duration-500 group cursor-pointer hover:shadow-2xl sm:h-[320px] sm:w-[560px] md:h-[420px] md:w-[900px] md:rounded-[2.5rem]"
               >
                 {}
-                <div className="flex-[1.2] p-8 md:p-10 flex flex-col justify-between items-start bg-white z-10">
+                <div className="z-10 flex flex-[1.18] flex-col justify-between bg-white p-5 sm:p-7 md:flex-[1.2] md:p-10">
                   <div>
-                    <div className="w-12 h-12 bg-gray-50 rounded-2xl flex items-center justify-center mb-6 border border-gray-100 group-hover:bg-crimson group-hover:text-white transition-colors duration-300">
-                      <Globe className="w-6 h-6" />
+                    <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-2xl border border-gray-100 bg-gray-50 transition-colors duration-300 group-hover:bg-crimson group-hover:text-white sm:mb-5 sm:h-12 sm:w-12">
+                      <Globe className="h-5 w-5 sm:h-6 sm:w-6" />
                     </div>
-                    <h3 className="text-2xl md:text-3xl font-bold mb-3 group-hover:text-crimson transition-colors font-montserrat tracking-tight">
+                    <h3 className="mb-2 text-xl font-bold tracking-tight transition-colors group-hover:text-crimson sm:text-2xl md:mb-3 md:text-3xl">
                       {countryName}
                     </h3>
-                    <p className="text-gray-500 line-clamp-2 md:line-clamp-3 leading-relaxed text-sm md:text-base mb-6">
+                    <p className="mb-4 line-clamp-3 text-xs leading-5 text-gray-500 sm:text-sm md:mb-6 md:text-base md:leading-relaxed">
                       {countryDescription}
                     </p>
-                    <div className="flex flex-wrap gap-2 mb-6">
+                    <div className="mb-6 hidden flex-wrap gap-2 sm:flex">
                       {tags.map((tag, tIdx) => (
                         <span
                           key={tIdx}
@@ -226,7 +226,7 @@ export default function Countries({ lang, dict, countries = [] }: CountriesProps
                       ))}
                     </div>
                   </div>
-                  <div className="mt-auto">
+                  <div className="mt-auto origin-left scale-[0.88] sm:scale-100">
                     <InteractiveHoverButton
                       className="bg-white text-black border-gray-200"
                       dotClassName="bg-crimson"
@@ -236,13 +236,13 @@ export default function Countries({ lang, dict, countries = [] }: CountriesProps
                   </div>
                 </div>
                 {}
-                <div className="flex-1 relative h-full overflow-hidden">
+                <div className="relative h-full w-[42%] flex-none overflow-hidden md:flex-1">
                   <Image
                     src={country.img}
                     alt={countryName}
                     fill
                     loading="lazy"
-                    className="object-cover transition-transform duration-1000 group-hover:scale-110 pointer-events-none"
+                    className="pointer-events-none object-cover object-center transition-transform duration-1000 group-hover:scale-110"
                     draggable={false}
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />

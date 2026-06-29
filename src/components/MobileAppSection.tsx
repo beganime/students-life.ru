@@ -1,12 +1,10 @@
 import {
   ArrowRight,
-  Bell,
-  CheckCircle2,
   Download,
-  FileText,
   PlayCircle,
   Smartphone,
 } from "lucide-react";
+import Image from "next/image";
 
 interface MobileAppSectionProps {
   lang: string;
@@ -55,8 +53,6 @@ const copyByLang = {
   },
 };
 
-const featureIcons = [CheckCircle2, FileText, Bell];
-
 export default function MobileAppSection({ lang }: MobileAppSectionProps) {
   const copy = copyByLang[lang as keyof typeof copyByLang] || copyByLang.en;
 
@@ -65,47 +61,18 @@ export default function MobileAppSection({ lang }: MobileAppSectionProps) {
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-[0.92fr_1.08fr] lg:px-8">
         <div className="relative mx-auto flex w-full max-w-[430px] justify-center lg:order-2 lg:max-w-none">
           <div className="absolute left-1/2 top-1/2 h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#c91622]/10 blur-3xl" />
-          <div className="relative aspect-[9/18] w-[230px] rounded-[2.25rem] border-[10px] border-gray-950 bg-gray-950 shadow-2xl shadow-gray-900/20 sm:w-[270px]">
+          <div className="relative aspect-[9/16] w-[235px] rounded-[2.25rem] border-[10px] border-gray-950 bg-gray-950 shadow-2xl shadow-gray-900/20 sm:w-[280px]">
             <div className="absolute left-1/2 top-2 z-10 h-5 w-24 -translate-x-1/2 rounded-full bg-gray-950" />
-            <div className="h-full overflow-hidden rounded-[1.55rem] bg-[#f5f7fb]">
-              <div className="bg-[#0a3156] px-5 pb-8 pt-10 text-white">
-                <div className="mb-6 flex items-center justify-between">
-                  <div>
-                    <p className="text-[10px] font-black uppercase tracking-[0.2em] text-white/60">
-                      Student's Life
-                    </p>
-                    <p className="mt-1 text-lg font-black leading-tight">App</p>
-                  </div>
-                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/12 ring-1 ring-white/18">
-                    <Smartphone className="h-5 w-5" />
-                  </div>
-                </div>
-                <div className="rounded-2xl bg-white/12 p-4 ring-1 ring-white/14">
-                  <p className="text-xs font-bold text-white/70">{copy.features[0]}</p>
-                  <div className="mt-3 h-2 rounded-full bg-white/14">
-                    <div className="h-2 w-3/4 rounded-full bg-[#c91622]" />
-                  </div>
-                </div>
-              </div>
-              <div className="-mt-4 space-y-3 px-4">
-                {copy.features.map((feature, index) => {
-                  const Icon = featureIcons[index];
-                  return (
-                    <div
-                      key={feature}
-                      className="flex items-center gap-3 rounded-2xl bg-white p-4 shadow-sm ring-1 ring-gray-100"
-                    >
-                      <div className="flex h-10 w-10 flex-none items-center justify-center rounded-xl bg-[#c91622]/10 text-[#c91622]">
-                        <Icon className="h-5 w-5" />
-                      </div>
-                      <div className="min-w-0">
-                        <p className="truncate text-sm font-black text-gray-900">{feature}</p>
-                        <p className="mt-1 h-1.5 w-24 rounded-full bg-gray-100" />
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
+            <div className="relative h-full overflow-hidden rounded-[1.55rem] bg-[#f5f7fb]">
+              <Image
+                src="/screenshot_mobile_app.jpg"
+                alt="Student's Life mobile app"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 640px) 235px, 280px"
+                priority={false}
+              />
+              <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-white/10" />
             </div>
           </div>
         </div>

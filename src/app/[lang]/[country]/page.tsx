@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getCountry, getCities, getStrapiImageUrl } from '@/lib/strapi';
+import { getBestStrapiImage, getCountry, getCities, getStrapiImageUrl, normalizeStrapiImages } from '@/lib/strapi';
 import { generateSEOMetadata } from '@/lib/seo';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -139,8 +139,12 @@ export default async function CountryPage({ params }: CountryPageProps) {
 
   const dict: any = await getDictionary(lang as Locale);
   const copy = getCopy(lang);
-  const heroImage = country.images?.[0];
-  const galleryImages = country.images?.slice(1, 5) ?? [];
+  const countryImages = normalizeStrapiImages(country.images);
+  const cityPreviewImages = cities.flatMap((city) => normalizeStrapiImages(city.images));
+  const heroImage = countryImages[0] || cityPreviewImages[0] || null;
+  const galleryImages = [...countryImages.slice(heroImage ? 1 : 0), ...cityPreviewImages]
+    .filter((image, index, all) => image.url && all.findIndex((item) => item.url === image.url) === index)
+    .slice(0, 4);
   const description = country.description?.trim() || copy.fallbackDescription;
 
   const breadcrumbData: WithContext<BreadcrumbList> = {
@@ -156,20 +160,20 @@ export default async function CountryPage({ params }: CountryPageProps) {
     <main className="min-h-screen bg-[#f6f7f9] text-gray-950">
       <JsonLd<BreadcrumbList> data={breadcrumbData} />
 
-      <section className="relative overflow-hidden bg-navy pt-28 md:pt-36">
+      <section className="relative min-h-[620px] overflow-hidden bg-navy pt-24 md:min-h-[640px] md:pt-36">
         {heroImage ? (
           <Image
             src={getStrapiImageUrl(heroImage.url)}
             alt={heroImage.alternativeText || country.name}
             fill
-            className="object-cover"
+            className="object-cover object-center md:object-[center_45%]"
             priority
             sizes="100vw"
           />
         ) : (
           <div className="absolute inset-0 bg-[linear-gradient(135deg,#06182E_0%,#10243f_55%,#202938_100%)]" />
         )}
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(6,24,46,0.94),rgba(6,24,46,0.72),rgba(6,24,46,0.44))]" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(6,24,46,0.88),rgba(6,24,46,0.72)_45%,rgba(6,24,46,0.9)),linear-gradient(90deg,rgba(6,24,46,0.88),rgba(6,24,46,0.55),rgba(6,24,46,0.32))]" />
 
         <div className="relative mx-auto max-w-7xl px-4 py-14 md:px-8 md:py-24">
           <nav className="mb-8 flex flex-wrap items-center gap-2 text-sm text-white/70">
@@ -253,7 +257,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
               <div className="grid grid-cols-2 gap-3 md:gap-4">
                 {galleryImages.map((img, index) => (
                   <div
-                    key={img.id}
+                    key={img.id ?? img.url}
                     className={`relative overflow-hidden rounded-lg border border-white bg-gray-200 shadow-sm ${index === 0 ? 'col-span-2 aspect-[16/9] sm:col-span-1 sm:row-span-2 sm:aspect-auto sm:min-h-80' : 'aspect-[4/3]'}`}
                   >
                     <Image
@@ -299,7 +303,8 @@ export default async function CountryPage({ params }: CountryPageProps) {
           {cities.length > 0 ? (
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
               {cities.map((city) => {
-                const imageUrl = city.images?.[0]?.url ? getStrapiImageUrl(city.images[0].url) : null;
+                const image = getBestStrapiImage(city.images) || heroImage;
+                const imageUrl = image?.url ? getStrapiImageUrl(image.url) : null;
 
                 return (
                   <Link

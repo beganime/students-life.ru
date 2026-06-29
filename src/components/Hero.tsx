@@ -103,12 +103,17 @@ export default function Hero({ lang, dict }: HeroProps) {
         <div className="grid flex-1 items-center gap-7 lg:grid-cols-[0.56fr_0.44fr]">
           <div className="relative z-10 max-w-[620px] text-center lg:text-left">
             <div className="mb-4 flex justify-center lg:justify-start">
+              <div className="w-[285px] sm:w-[345px] lg:w-[410px]">
               <Image
                 src={figmaLogo}
                 alt="Student's Life"
                 priority
-                className="h-auto w-[285px] drop-shadow-[0_4px_18px_rgba(0,0,0,0.18)] sm:w-[345px] lg:w-[410px]"
+                className="h-auto w-full drop-shadow-[0_4px_18px_rgba(0,0,0,0.18)]"
               />
+                <div className="-mt-2 pr-5 text-right font-black leading-none tracking-[0.16em] text-white drop-shadow-[0_5px_16px_rgba(0,0,0,0.22)] [font-family:Impact,Arial_Black,Montserrat,system-ui,sans-serif] text-[42px] sm:text-[54px] lg:text-[64px]">
+                  Life
+                </div>
+              </div>
             </div>
 
             <div className="mb-4 inline-flex items-center gap-2 rounded-sm border border-white/35 bg-white/10 px-4 py-2 text-[11px] font-black uppercase tracking-wide text-white backdrop-blur-sm">
