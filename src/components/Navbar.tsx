@@ -20,12 +20,7 @@ export default function Navbar({ lang, dict, countries }: NavbarProps) {
   const [isMobileCompanyOpen, setIsMobileCompanyOpen] = useState(false);
   const [isMobileLangOpen, setIsMobileLangOpen] = useState(false);
   const pathname = usePathname();
-  const redirectedPathName = (locale: Locale) => {
-    if (!pathname) return "/";
-    const segments = pathname.split("/");
-    segments[1] = locale;
-    return segments.join("/");
-  };
+  const redirectedPathName = (locale: Locale) => `/${locale}`;
   const universityListLabel =
     lang === 'ru' ? 'Вузы 2026-2027' :
     lang === 'tk' ? 'Uniwersitetler 2026-2027' :
@@ -68,47 +63,61 @@ export default function Navbar({ lang, dict, countries }: NavbarProps) {
                       <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
                     </button>
                     { }
-                    <div className="absolute left-0 top-full pt-4 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
-                      <div className="bg-white rounded-xl shadow-2xl border border-gray-100">
-                        <div className="py-2">
-                          {countries?.map((country) => (
-                            <div key={country.id} className="group/country relative">
-                              <Link
-                                href={`/${lang}/${country.slug}`}
-                                className="block w-full text-left px-4 py-3 text-sm text-black hover:bg-gray-50 hover:text-navy font-medium transition-colors"
-                              >
-                                <div className="flex items-center justify-between">
-                                  <span>{country.name || (country as any).attributes?.name}</span>
-                                  {country.cities && country.cities.length > 0 && (
-                                    <ChevronRight className="w-4 h-4 text-gray-400 group-hover/country:text-navy" />
-                                  )}
-                                </div>
-                              </Link>
-                              { }
-                              {country.cities && country.cities.length > 0 && (
-                                <div className="absolute left-full top-0 ml-2 w-56 opacity-0 invisible group-hover/country:opacity-100 group-hover/country:visible transition-all duration-200">
-                                  <div className="bg-white rounded-xl shadow-xl border border-gray-100 py-2">
-                                    <div className="px-4 py-2 border-b border-gray-50 bg-gray-50/50">
-                                      <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
-                                        {lang === 'ru' ? 'Города' : 'Cities'}
-                                      </span>
+                    <div className="absolute left-1/2 top-full w-[min(92vw,760px)] -translate-x-1/2 translate-y-2 pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300">
+                      <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-2xl">
+                        <div className="border-b border-gray-100 bg-gray-50/70 px-5 py-4">
+                          <div className="text-[11px] font-black uppercase tracking-[0.22em] text-gray-400">
+                            {dict?.nav?.countries || "Countries"}
+                          </div>
+                        </div>
+                        <div className="max-h-[min(72vh,560px)] overflow-y-auto p-3">
+                          <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                            {countries?.map((country) => (
+                              <div key={country.id} className="group/country min-w-0">
+                                <Link
+                                  href={`/${lang}/${country.slug}`}
+                                  className="block min-h-[74px] rounded-xl border border-transparent px-4 py-3 text-left text-sm text-black transition-colors hover:border-gray-100 hover:bg-gray-50 hover:text-navy"
+                                >
+                                  <div className="flex items-start justify-between gap-3">
+                                    <div className="min-w-0">
+                                      <span className="block truncate font-bold">{country.name || (country as any).attributes?.name}</span>
+                                      {country.cities && country.cities.length > 0 && (
+                                        <span className="mt-1 block text-xs font-medium text-gray-400">
+                                          {country.cities.length} {lang === 'ru' ? 'города' : 'cities'}
+                                        </span>
+                                      )}
                                     </div>
-                                    {country.cities.map((city: any) => (
-                                      <Link
-                                        key={city.id}
-                                        href={`/${lang}/${country.slug}/${city.slug}`}
-                                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-navy transition-colors"
-                                      >
-                                        {city.name}
-                                      </Link>
-                                    ))}
+                                    <ChevronRight className="mt-0.5 h-4 w-4 flex-none text-gray-300 transition-colors group-hover/country:text-navy" />
                                   </div>
-                                </div>
-                              )}
-                            </div>
-                          ))}
+                                </Link>
+                                {country.cities && country.cities.length > 0 && (
+                                  <div className="px-4 pb-3">
+                                    <div className="flex flex-wrap gap-1.5">
+                                      {country.cities.slice(0, 5).map((city: any) => (
+                                        <Link
+                                          key={city.id}
+                                          href={`/${lang}/${country.slug}/${city.slug}`}
+                                          className="rounded-full bg-gray-50 px-2.5 py-1 text-[11px] font-semibold text-gray-500 transition-colors hover:bg-navy hover:text-white"
+                                        >
+                                          {city.name}
+                                        </Link>
+                                      ))}
+                                      {country.cities.length > 5 && (
+                                        <Link
+                                          href={`/${lang}/${country.slug}`}
+                                          className="rounded-full bg-gray-100 px-2.5 py-1 text-[11px] font-bold text-gray-500 transition-colors hover:bg-navy hover:text-white"
+                                        >
+                                          +{country.cities.length - 5}
+                                        </Link>
+                                      )}
+                                    </div>
+                                  </div>
+                                )}
+                              </div>
+                            ))}
                         </div>
                       </div>
+                    </div>
                     </div>
                   </div>
                 );

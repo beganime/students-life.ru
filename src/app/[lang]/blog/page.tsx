@@ -26,7 +26,7 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
   const dict = await getDictionary(lang);
   let posts: NewsPost[] = [];
   try {
-    posts = await getNewsPosts();
+    posts = await getNewsPosts(undefined, lang);
   } catch (error) {
     console.error('BlogPage fetch failed:', error);
   }

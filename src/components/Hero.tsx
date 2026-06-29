@@ -107,7 +107,7 @@ export default function Hero({ lang, dict }: HeroProps) {
                 src={figmaLogo}
                 alt="Student's Life"
                 priority
-                className="h-auto w-[265px] drop-shadow-[0_4px_18px_rgba(0,0,0,0.18)] sm:w-[320px] lg:w-[370px]"
+                className="h-auto w-[285px] drop-shadow-[0_4px_18px_rgba(0,0,0,0.18)] sm:w-[345px] lg:w-[410px]"
               />
             </div>
 

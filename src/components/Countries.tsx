@@ -6,6 +6,7 @@ import { useRef, useState, useEffect } from "react";
 import { Globe, ArrowLeft, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button";
+import type { Country as StrapiCountry } from "@/lib/strapi";
 interface CountryData {
   name: string;
   slogan: string;
@@ -22,6 +23,7 @@ interface CountriesProps {
     contactCta: string;
     [key: string]: any;
   };
+  countries?: StrapiCountry[];
 }
 import russiaImg from "../assets/images/russia.webp";
 import chinaImg from "../assets/images/china.webp";
@@ -37,7 +39,38 @@ const countriesList = [
   { key: "belarus", img: belarusImg },
   { key: "bulgaria", img: bulgariaImg },
 ];
-export default function Countries({ lang, dict }: CountriesProps) {
+
+const countryAliases: Record<string, string[]> = {
+  china: ["china", "kitay", "китай", "hytaý", "xitoy"],
+  russia: ["russia", "rossiya", "россия", "russiya", "russiýa"],
+  turkey: ["turkey", "turkiye", "türkiye", "турция", "turkiya", "türkiýe"],
+  cyprus: ["cyprus", "kipr", "кипр"],
+  belarus: ["belarus", "belarus'", "беларусь", "belorussiya", "белоруссия"],
+  bulgaria: ["bulgaria", "bolgariya", "болгария", "bolgariýa"],
+};
+
+function normalizeCountryValue(value?: string) {
+  return (value || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zа-яё0-9]+/gi, "");
+}
+
+function findStrapiCountry(key: string, countries: StrapiCountry[] = []) {
+  const aliases = (countryAliases[key] || [key]).map(normalizeCountryValue);
+  return countries.find((country) => {
+    const slug = normalizeCountryValue(country.slug);
+    const name = normalizeCountryValue(country.name);
+    return aliases.includes(slug) || aliases.includes(name);
+  });
+}
+
+function resolveCountrySlug(key: string, countries: StrapiCountry[] = []) {
+  return findStrapiCountry(key, countries)?.slug || key;
+}
+
+export default function Countries({ lang, dict, countries = [] }: CountriesProps) {
   const router = useRouter();
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [isDragging, setIsDragging] = useState(false);
@@ -112,7 +145,7 @@ export default function Countries({ lang, dict }: CountriesProps) {
   };
   const handleCardClick = (key: string) => {
     if (!isDragging) {
-      router.push(`/${lang}/${key}`);
+      router.push(`/${lang}/${resolveCountrySlug(key, countries)}`);
     }
   };
   return (
@@ -156,6 +189,10 @@ export default function Countries({ lang, dict }: CountriesProps) {
         <div className="flex gap-8 px-4 sm:px-6 lg:px-[max(2rem,calc((100vw-80rem)/2))] min-w-max select-none">
           {countriesList.map((country, index) => {
             const countryData = dict[country.key as keyof typeof dict] as CountryData;
+            const strapiCountry = findStrapiCountry(country.key, countries);
+            const countryName = countryData?.name || strapiCountry?.name || country.key;
+            const countryDescription = countryData?.description || strapiCountry?.description || "";
+            const tags = countryData?.tags || [];
             return (
               <motion.div
                 key={country.key}
@@ -173,13 +210,13 @@ export default function Countries({ lang, dict }: CountriesProps) {
                       <Globe className="w-6 h-6" />
                     </div>
                     <h3 className="text-2xl md:text-3xl font-bold mb-3 group-hover:text-crimson transition-colors font-montserrat tracking-tight">
-                      {countryData.name}
+                      {countryName}
                     </h3>
                     <p className="text-gray-500 line-clamp-2 md:line-clamp-3 leading-relaxed text-sm md:text-base mb-6">
-                      {countryData.description}
+                      {countryDescription}
                     </p>
                     <div className="flex flex-wrap gap-2 mb-6">
-                      {countryData.tags?.map((tag, tIdx) => (
+                      {tags.map((tag, tIdx) => (
                         <span
                           key={tIdx}
                           className="text-[11px] font-bold tracking-widest uppercase px-4 py-2 bg-gray-50 text-gray-400 rounded-full border border-gray-100 group-hover:border-crimson/20 group-hover:bg-crimson/5 group-hover:text-crimson transition-colors"
@@ -202,7 +239,7 @@ export default function Countries({ lang, dict }: CountriesProps) {
                 <div className="flex-1 relative h-full overflow-hidden">
                   <Image
                     src={country.img}
-                    alt={countryData.name}
+                    alt={countryName}
                     fill
                     loading="lazy"
                     className="object-cover transition-transform duration-1000 group-hover:scale-110 pointer-events-none"

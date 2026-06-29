@@ -6,7 +6,7 @@ import Hero from "@/components/Hero";
 import dynamic from "next/dynamic";
 import JsonLd from "@/components/JsonLd";
 import { WebSite, WebPage, WithContext } from "schema-dts";
-import { getTeamMembers, getNewsPosts } from "@/lib/strapi";
+import { getCountriesWithCities, getTeamMembers, getNewsPosts } from "@/lib/strapi";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 import ReviewsSection from "@/components/ReviewsSection";
 import supportUniversityIcon from "@/assets/support_icons/admission.webp";
@@ -24,6 +24,7 @@ import { Suspense } from "react";
 const FeatureTabs = dynamic(() => import("@/components/FeatureTabs"), { ssr: true });
 const Services = dynamic(() => import("@/components/Services"), { ssr: true });
 const Countries = dynamic(() => import("@/components/Countries"), { ssr: true });
+const MobileAppSection = dynamic(() => import("@/components/MobileAppSection"), { ssr: true });
 const HowItWorks = dynamic(() => import("@/components/HowItWorks"), { ssr: true });
 const WhyChooseUs = dynamic(() => import("@/components/WhyChooseUs"), { ssr: true });
 const Team = dynamic(() => import("@/components/Team"), { ssr: true });
@@ -62,13 +63,14 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
     const { lang: langParam } = await params;
     const lang = langParam as Locale;
-    let dict, teamMembers, latestNews;
+    let dict, teamMembers, latestNews, strapiCountries;
     try {
-        [dict, teamMembers, latestNews] = await Promise.all([
+        [dict, teamMembers, latestNews, strapiCountries] = await Promise.all([
             getDictionary(lang),
             getTeamMembers(lang),
-            getNewsPosts(3),
-        ]) as [any, any, any];
+            getNewsPosts(3, lang),
+            getCountriesWithCities(lang),
+        ]) as [any, any, any, any];
     } catch (error) {
         console.error('Homepage fetch failed, falling back to static content:', error);
         try {
@@ -78,6 +80,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         }
         teamMembers = [];
         latestNews = [];
+        strapiCountries = [];
     }
     const features = [
         {
@@ -181,9 +184,10 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 subtitle={dict.featureTabs?.subtitle || "Detailed assistance at every step of your study abroad journey."}
             />
             <Services lang={lang} dict={dict.services} />
-            <Countries lang={lang} dict={dict.countries} />
+            <Countries lang={lang} dict={dict.countries} countries={strapiCountries} />
             <HowItWorks steps={howItWorksSteps} dict={dict.howItWorks} lang={lang} />
             <WhyChooseUs lang={lang} dict={dict.whyUs} />
+            <MobileAppSection lang={lang} />
             <Team lang={lang} dict={dict.team} teamMembers={teamMembers.slice(0, 6)} showViewAll={true} />
             <Statistics lang={lang} dict={dict.statistics} />
             <TestimonialsCarousel title={dict.team.testimonials_title} videoCategory={dict.team.videoTestimonialCategory} lang={lang} />

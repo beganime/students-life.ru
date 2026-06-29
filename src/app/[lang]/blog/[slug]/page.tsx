@@ -27,7 +27,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: NewsPostPageProps): Promise<Metadata> {
     try {
         const { slug, lang } = await params;
-        const post = await getNewsPost(slug);
+        const post = await getNewsPost(slug, lang);
         if (!post) return { title: 'Not Found' };
         const image = post.image?.url ? getStrapiImageUrl(post.image.url) : undefined;
         return generateSEOMetadata({
@@ -49,7 +49,7 @@ export default async function NewsPostPage({ params }: NewsPostPageProps) {
     const dict = await getDictionary(lang as Locale);
     const blogDict = (dict as any).latestJournal || {};
 
-    const post = await getNewsPost(slug);
+    const post = await getNewsPost(slug, lang);
     if (!post) notFound();
 
     marked.setOptions({ breaks: true, gfm: true });

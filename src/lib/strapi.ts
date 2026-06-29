@@ -326,36 +326,56 @@ export interface NewsPost {
     };
     category?: string;
 }
-export async function getNewsPosts(limit?: number): Promise<NewsPost[]> {
-    const query = qs.stringify({
+function buildNewsQuery(options: { limit?: number; slug?: string; locale?: string }) {
+    return qs.stringify({
         populate: '*',
         sort: ['publishedAt:desc'],
-        ...(limit ? { pagination: { limit } } : {}),
+        ...(options.locale ? { locale: toStrapiLocale(options.locale) } : {}),
+        ...(options.slug ? { filters: { slug: { $eq: options.slug } } } : {}),
+        ...(options.limit ? { pagination: { limit: options.limit } } : {}),
     });
+}
+
+async function fetchNewsPosts(query: string): Promise<NewsPost[]> {
+    const { data } = await strapiClient.get<StrapiResponse<NewsPost[]>>(`/news-list?${query}`);
+    return data.data;
+}
+
+export async function getNewsPosts(limit?: number, locale?: string): Promise<NewsPost[]> {
     try {
-        const { data } = await strapiClient.get<StrapiResponse<NewsPost[]>>(`/news-list?${query}`);
-        return data.data;
+        return await fetchNewsPosts(buildNewsQuery({ limit, locale }));
     } catch (error) {
+        if (locale) {
+            try {
+                return await fetchNewsPosts(buildNewsQuery({ limit }));
+            } catch {
+                // Keep the original error for easier Strapi permission debugging.
+            }
+        }
         console.error('getNewsPosts failed:', error);
         return [];
     }
 }
-export async function getNewsPost(slug: string): Promise<NewsPost | null> {
-    const query = qs.stringify({
-        filters: { slug: { $eq: slug } },
-        populate: '*',
-    });
+export async function getNewsPost(slug: string, locale?: string): Promise<NewsPost | null> {
     try {
-        const { data } = await strapiClient.get<StrapiResponse<NewsPost[]>>(`/news-list?${query}`);
-        return data.data[0] || null;
+        const posts = await fetchNewsPosts(buildNewsQuery({ slug, locale }));
+        return posts[0] || null;
     } catch (error) {
+        if (locale) {
+            try {
+                const posts = await fetchNewsPosts(buildNewsQuery({ slug }));
+                return posts[0] || null;
+            } catch {
+                // Keep the original error for easier Strapi permission debugging.
+            }
+        }
         console.error('getNewsPost failed:', error);
         return null;
     }
 }
 /** @deprecated Use getNewsPosts instead */
-export async function getLatestBlogs(): Promise<NewsPost[]> {
-    return getNewsPosts(3);
+export async function getLatestBlogs(locale?: string): Promise<NewsPost[]> {
+    return getNewsPosts(3, locale);
 }
 export async function getLatestCities(locale: string = 'en'): Promise<City[]> {
     const query = qs.stringify({
