@@ -1,7 +1,7 @@
 "use client";
 import { MapPin } from "lucide-react";
 import type { Office } from "@/lib/strapi";
-import { getStrapiImageUrl } from "@/lib/strapi-media";
+import { getStrapiImageUrl, isRemoteStrapiMediaUrl } from "@/lib/strapi-media";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -48,6 +48,7 @@ export default function TeamByCity({ lang, dict, offices }: TeamByCityProps) {
                       src={getStrapiImageUrl(office.photo.url)}
                       alt={office.name}
                       fill
+                      unoptimized={isRemoteStrapiMediaUrl(office.photo.url)}
                       className="object-cover"
                     />
                   </div>
@@ -80,6 +81,7 @@ export default function TeamByCity({ lang, dict, offices }: TeamByCityProps) {
                           src={getStrapiImageUrl(member.photo.url)}
                           alt={member.fullName}
                           fill
+                          unoptimized={isRemoteStrapiMediaUrl(member.photo.url)}
                           className="object-cover transition-transform duration-700 group-hover:scale-105"
                         />
                       ) : (

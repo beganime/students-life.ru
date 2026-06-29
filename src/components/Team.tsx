@@ -1,7 +1,7 @@
 "use client";
 import { UserPlus } from "lucide-react";
 import type { TeamMember } from "@/lib/strapi";
-import { getStrapiImageUrl } from "@/lib/strapi-media";
+import { getStrapiImageUrl, isRemoteStrapiMediaUrl } from "@/lib/strapi-media";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -52,6 +52,7 @@ export default function Team({ lang, dict, teamMembers, showViewAll = false }: T
                     src={getStrapiImageUrl(member.photo.url)}
                     alt={member.fullName}
                     fill
+                    unoptimized={isRemoteStrapiMediaUrl(member.photo.url)}
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
 
                   />

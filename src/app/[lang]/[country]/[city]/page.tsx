@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getBestStrapiImage, getCity, getCities, getStrapiImageUrl, normalizeStrapiImages } from '@/lib/strapi';
+import { getBestStrapiImage, getCity, getCities, getStrapiImageUrl, isRemoteStrapiMediaUrl, normalizeStrapiImages } from '@/lib/strapi';
 import { generateSEOMetadata } from '@/lib/seo';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -298,6 +298,7 @@ export default async function CityPage({ params }: CityPageProps) {
             src={heroImageUrl}
             alt={heroImage.alternativeText || title}
             fill
+            unoptimized={isRemoteStrapiMediaUrl(heroImageUrl)}
             className="object-cover object-center md:object-[center_45%]"
             priority
             sizes="100vw"
@@ -452,6 +453,7 @@ export default async function CityPage({ params }: CityPageProps) {
                         src={getStrapiImageUrl(image.url)}
                         alt={image.alternativeText || title}
                         fill
+                        unoptimized={isRemoteStrapiMediaUrl(image.url)}
                         className="object-cover transition-transform duration-500 hover:scale-105"
                         sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
                       />

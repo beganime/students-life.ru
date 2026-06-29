@@ -35,3 +35,8 @@ export function getStrapiImageUrl(url: string | null | undefined): string {
 }
 
 export const getStrapiMediaUrl = getStrapiImageUrl;
+
+export function isRemoteStrapiMediaUrl(url: string | null | undefined): boolean {
+    const mediaUrl = getStrapiImageUrl(url);
+    return /^https?:\/\//.test(mediaUrl);
+}

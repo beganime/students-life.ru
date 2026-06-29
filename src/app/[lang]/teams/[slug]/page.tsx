@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getTeamMember, getTeamMembers, getStrapiImageUrl } from '@/lib/strapi';
+import { getTeamMember, getTeamMembers, getStrapiImageUrl, isRemoteStrapiMediaUrl } from '@/lib/strapi';
 import { generateSEOMetadata } from '@/lib/seo';
 import { getDictionary } from '@/get-dictionary';
 import { Locale } from '@/i18n-config';
@@ -137,6 +137,7 @@ export default async function TeamMemberPage({ params }: TeamMemberPageProps) {
                                     src={photoUrl}
                                     alt={member.photo?.alternativeText ?? member.fullName}
                                     fill
+                                    unoptimized={isRemoteStrapiMediaUrl(photoUrl)}
                                     className="object-cover"
                                     priority
                                     sizes="(max-width: 768px) 192px, 256px"

@@ -7,7 +7,7 @@ import { Globe, ArrowLeft, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button";
 import type { Country as StrapiCountry } from "@/lib/strapi";
-import { getBestStrapiImage, getStrapiImageUrl } from "@/lib/strapi-media";
+import { getBestStrapiImage, getStrapiImageUrl, isRemoteStrapiMediaUrl } from "@/lib/strapi-media";
 interface CountryData {
   name: string;
   slogan: string;
@@ -245,6 +245,7 @@ export default function Countries({ lang, dict, countries = [] }: CountriesProps
                     alt={cmsImage?.alternativeText || countryName}
                     fill
                     loading="lazy"
+                    unoptimized={typeof imageSrc === 'string' && isRemoteStrapiMediaUrl(imageSrc)}
                     className="pointer-events-none object-cover object-center transition-transform duration-1000 group-hover:scale-110"
                     draggable={false}
                     sizes="(max-width: 768px) 100vw, 50vw"

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Calendar } from "lucide-react";
 import type { NewsPost } from "@/lib/strapi";
-import { getStrapiImageUrl } from "@/lib/strapi-media";
+import { getStrapiImageUrl, isRemoteStrapiMediaUrl } from "@/lib/strapi-media";
 import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 interface LatestJournalProps {
@@ -56,6 +56,7 @@ export default function LatestJournal({ lang, dict, posts = [] }: LatestJournalP
                                                     src={imageUrl}
                                                     alt={post.image?.alternativeText || post.title}
                                                     fill
+                                                    unoptimized={isRemoteStrapiMediaUrl(imageUrl)}
                                                     className="object-cover transition-transform duration-500 group-hover:scale-105"
 
                                                 />

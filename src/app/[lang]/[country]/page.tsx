@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getBestStrapiImage, getCountry, getCities, getStrapiImageUrl, normalizeStrapiImages } from '@/lib/strapi';
+import { getBestStrapiImage, getCountry, getCities, getStrapiImageUrl, isRemoteStrapiMediaUrl, normalizeStrapiImages } from '@/lib/strapi';
 import { generateSEOMetadata } from '@/lib/seo';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -142,6 +142,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
   const countryImages = normalizeStrapiImages(country.images);
   const cityPreviewImages = cities.flatMap((city) => normalizeStrapiImages(city.images));
   const heroImage = countryImages[0] || cityPreviewImages[0] || null;
+  const heroImageUrl = heroImage?.url ? getStrapiImageUrl(heroImage.url) : '';
   const galleryImages = [...countryImages.slice(heroImage ? 1 : 0), ...cityPreviewImages]
     .filter((image, index, all) => image.url && all.findIndex((item) => item.url === image.url) === index)
     .slice(0, 4);
@@ -163,9 +164,10 @@ export default async function CountryPage({ params }: CountryPageProps) {
       <section className="relative min-h-[620px] overflow-hidden bg-navy pt-24 md:min-h-[640px] md:pt-36">
         {heroImage ? (
           <Image
-            src={getStrapiImageUrl(heroImage.url)}
+            src={heroImageUrl}
             alt={heroImage.alternativeText || country.name}
             fill
+            unoptimized={isRemoteStrapiMediaUrl(heroImageUrl)}
             className="object-cover object-center md:object-[center_45%]"
             priority
             sizes="100vw"
@@ -264,6 +266,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
                       src={getStrapiImageUrl(img.url)}
                       alt={img.alternativeText || `${country.name} ${index + 1}`}
                       fill
+                      unoptimized={isRemoteStrapiMediaUrl(img.url)}
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, 50vw"
                     />
@@ -318,6 +321,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
                           src={imageUrl}
                           alt={`${city.name} - Student life`}
                           fill
+                          unoptimized={isRemoteStrapiMediaUrl(imageUrl)}
                           className="object-cover transition-transform duration-500 group-hover:scale-105"
                           sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
                         />

@@ -3,7 +3,7 @@ import qs from 'qs';
 import type { StrapiImage } from './strapi-media';
 
 export type { StrapiImage } from './strapi-media';
-export { getBestStrapiImage, getStrapiImageUrl, getStrapiMediaUrl, normalizeStrapiImages } from './strapi-media';
+export { getBestStrapiImage, getStrapiImageUrl, getStrapiMediaUrl, isRemoteStrapiMediaUrl, normalizeStrapiImages } from './strapi-media';
 
 const strapiUrl = process.env.NEXT_PUBLIC_STRAPI_URL || 'http://localhost:1337';
 const strapiToken = process.env.STRAPI_API_TOKEN;

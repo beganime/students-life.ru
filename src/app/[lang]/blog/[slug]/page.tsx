@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getNewsPost, getNewsPosts, getStrapiImageUrl } from '@/lib/strapi';
+import { getNewsPost, getNewsPosts, getStrapiImageUrl, isRemoteStrapiMediaUrl } from '@/lib/strapi';
 import { generateSEOMetadata } from '@/lib/seo';
 import { getDictionary } from '@/get-dictionary';
 import { Locale } from '@/i18n-config';
@@ -96,6 +96,7 @@ export default async function NewsPostPage({ params }: NewsPostPageProps) {
                         src={imageUrl}
                         alt={post.image?.alternativeText || post.title}
                         fill
+                        unoptimized={isRemoteStrapiMediaUrl(imageUrl)}
                         className="object-cover"
                         priority
 
