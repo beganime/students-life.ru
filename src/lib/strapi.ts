@@ -1,5 +1,10 @@
 import axios from 'axios';
 import qs from 'qs';
+import type { StrapiImage } from './strapi-media';
+
+export type { StrapiImage } from './strapi-media';
+export { getBestStrapiImage, getStrapiImageUrl, getStrapiMediaUrl, normalizeStrapiImages } from './strapi-media';
+
 const strapiUrl = process.env.NEXT_PUBLIC_STRAPI_URL || 'http://localhost:1337';
 const strapiToken = process.env.STRAPI_API_TOKEN;
 
@@ -56,32 +61,6 @@ export interface City {
     country: Country;
     images?: StrapiImage[] | any;
 }
-export interface StrapiImage {
-    id?: number;
-    url: string;
-    alternativeText?: string;
-    caption?: string;
-    width?: number;
-    height?: number;
-    formats?: Record<string, { url?: string; width?: number; height?: number }>;
-    attributes?: StrapiImage;
-}
-
-export function normalizeStrapiImages(input: any): StrapiImage[] {
-    if (!input) return [];
-    if (Array.isArray(input)) return input.flatMap(normalizeStrapiImages);
-    if (Array.isArray(input.data)) return normalizeStrapiImages(input.data);
-    if (input.data) return normalizeStrapiImages(input.data);
-
-    const image = input.attributes ? { id: input.id, ...input.attributes } : input;
-    if (image?.url) return [image as StrapiImage];
-    return [];
-}
-
-export function getBestStrapiImage(input: any): StrapiImage | null {
-    return normalizeStrapiImages(input)[0] || null;
-}
-
 interface StrapiResponse<T> {
     data: T;
     meta: {
@@ -231,6 +210,7 @@ export async function getCountriesWithCities(locale: string = 'en'): Promise<Cou
         const query = qs.stringify({
             locale: toStrapiLocale(locale),
             populate: {
+                images: true,
                 cities: {
                     fields: ['name', 'slug'],
                     sort: ['name:asc'],
@@ -245,17 +225,6 @@ export async function getCountriesWithCities(locale: string = 'en'): Promise<Cou
         return [];
     }
 }
-export function getStrapiImageUrl(url: string | null | undefined): string {
-    if (!url) return '';
-    if (url.startsWith('http') || url.startsWith('//')) {
-        return url;
-    }
-    const isProd = process.env.NODE_ENV === 'production';
-    const baseUrl = process.env.NEXT_PUBLIC_STRAPI_URL || (isProd ? 'https://admin-studs-life.defyzer.com' : 'http://localhost:1337');
-    return `${baseUrl}${url}`;
-}
-
-export const getStrapiMediaUrl = getStrapiImageUrl;
 export interface Office {
     id: number;
     documentId: string;

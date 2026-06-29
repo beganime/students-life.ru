@@ -1,6 +1,7 @@
 "use client";
 import { UserPlus } from "lucide-react";
-import { TeamMember, getStrapiImageUrl } from "@/lib/strapi";
+import type { TeamMember } from "@/lib/strapi";
+import { getStrapiImageUrl } from "@/lib/strapi-media";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";

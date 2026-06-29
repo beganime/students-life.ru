@@ -21,15 +21,15 @@ const nextConfig = {
 
   images: {
     remotePatterns: [
-      { protocol: 'https', hostname: 'images.unsplash.com' },
-      { protocol: 'https', hostname: 'flagcdn.com' },
-      { protocol: 'https', hostname: 'img.youtube.com' },
-      { protocol: 'https', hostname: 'admin-studs-life.defyzer.com' },
-      { protocol: 'https', hostname: 'res.cloudinary.com' },
+      { protocol: 'https', hostname: 'images.unsplash.com', pathname: '/**' },
+      { protocol: 'https', hostname: 'flagcdn.com', pathname: '/**' },
+      { protocol: 'https', hostname: 'img.youtube.com', pathname: '/**' },
+      { protocol: 'https', hostname: 'admin-studs-life.defyzer.com', pathname: '/**' },
+      { protocol: 'https', hostname: 'res.cloudinary.com', pathname: '/**' },
       { protocol: 'http', hostname: 'localhost', port: '1337', pathname: '/uploads/**' },
       { protocol: 'http', hostname: '127.0.0.1', port: '1337', pathname: '/uploads/**' },
       // Internal Docker/Coolify networking (HTTP only, not exposed to public)
-      { protocol: 'http', hostname: '**' },
+      { protocol: 'http', hostname: '**', pathname: '/**' },
     ],
     // Image optimization settings
     formats: ['image/avif', 'image/webp'],

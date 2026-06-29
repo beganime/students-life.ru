@@ -1,6 +1,7 @@
 "use client";
 import { MapPin } from "lucide-react";
-import { Office, getStrapiImageUrl } from "@/lib/strapi";
+import type { Office } from "@/lib/strapi";
+import { getStrapiImageUrl } from "@/lib/strapi-media";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";

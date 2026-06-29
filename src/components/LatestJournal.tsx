@@ -2,7 +2,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Calendar } from "lucide-react";
-import { NewsPost, getStrapiImageUrl } from "@/lib/strapi";
+import type { NewsPost } from "@/lib/strapi";
+import { getStrapiImageUrl } from "@/lib/strapi-media";
 import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 interface LatestJournalProps {
